@@ -1,0 +1,512 @@
+library(RcppSSGLMM)
+dnormSumLog(rnorm(10),rep(0,10),rep(1,10))
+x<-rnorm(1000)
+m<-rnorm(1000)
+s<-rep(1,1000)
+dnormSumLog(x,m,s)
+sum(dnorm(x,m,s,TRUE))
+microbenchmark(dnormSumLog(x,m,s),sum(dnorm(x,m,s,TRUE)))
+library(RcppSSGLMM)
+microbenchmark(dnormSumLog(x,m,s),sum(dnorm(x,m,s,TRUE)))
+microbenchmark(dnormSumLog(x,m,s),sum(dnorm(x,m,s,TRUE)))
+library(RcppSSGLMM)
+counts1 <- c(18,17,15,20,10,20,25,13,12)
+counts2 <- c(15,16,12,23,10,17,24,6,16)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+model<-buildSSGLMM(cbind(counts1,counts2) ~ outcome + treatment,distribution="poisson")
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+modelKFAS<-SSModel(cbind(counts1,counts2) ~ outcome + treatment,distribution="poisson")
+app<-approxSSM(modelKFAS,maxiter=100)
+logLik(app)
+out<-KFS(app)
+logLik(modelKFAS)
+f()
+counts <- c(18,17,15,20,10,20,25,13,12)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+print(d.AD <- data.frame(treatment, outcome, counts))
+glm.D93 <- glm(counts ~ outcome + treatment, family = poisson())
+summary(glm.D93)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+f()
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+logLik(approxSSM(modelKFAS))
+library(RcppSSGLMM)
+dist
+f()
+sum(dnorm(app$y,app$theta,sqrt(c(app$H)),log=TRUE))
+app$y
+app<-approxSSM(modelKFAS,maxiter=100)
+sum(dnorm(app$y,app$theta,sqrt(c(app$H)),log=TRUE))
+f()
+-1.16423+2.88667
+logLik(app)
+logLik(modelKFAS)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik-KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+f()
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+f()
+logLik(modelKFAS)
+logLik(modelKFAS)+24.54488
+theta
+model$y
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+print(theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+f()
+c(app$theta)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+print(model$y)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+f()
+KFAS:::logLik.SSModel
+logLik(modelKFAS)-KFAS:::scaling(model$y,model$u,model$distribution,app$theta)
+logLik(modelKFAS)-KFAS:::scaling(model$y,model$u,model$distribution,app$theta)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik#+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+modelKFAS
+logLik(modelKFAS)-KFAS:::scaling(model$y,model$u,model$distribution,app$theta)
+f()
+library(RcppSSGLMM)
+f()
+loglik(app)
+logLik(app)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+logLik(modelKFAS)
+f()
+all.equal(logLik(modelKFAS),f())
+indentical(logLik(modelKFAS),f())
+identical(logLik(modelKFAS),f())
+all.equal(logLik(modelKFAS),f())
+microbenchmark(logLik(modelKFAS),f())
+KFAS:::scaling
+dnorm
+library(RcppSSGLMM)
+library(RcppSSGLMM)
+library(RcppSSGLMM)
+counts1 <- c(18,NA,15,20,10,NA,25,13,12)
+counts2 <- c(15,16,12,23,10,NA,24,6,NA)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+model<-buildSSGLMM(cbind(counts1,counts2) ~ outcome + treatment,distribution="poisson")
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+modelKFAS<-SSModel(cbind(counts1,counts2) ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+f()
+app<-approxSSM(modelKFAS,maxiter=100)
+logLik(app)
+counts<-cbind(counts1,counts2)
+counts1 <- c(18,NA,15,20,10,NA,25,13,12)
+counts2 <- c(15,16,12,23,10,NA,24,6,NA)
+outcome <- gl(3,1,9)
+treatment <- gl(3,3)
+counts<-cbind(counts1,counts2)
+counts[is.na(counts)]<-10
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+f()
+library(RcppSSGLMM)
+f()
+counts<-cbind(counts1,counts2)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+f()
+microbenchmark(logLik(modelKFAS),f())
+length(
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+app<-approxSSM(modelKFAS,maxiter=100)
+all.equal(logLik(modelKFAS),f()))
+dim(counts)
+counts1 <- rep(c(18,NA,15,20,10,NA,25,13,12),100)
+counts2 <- rep(c(15,16,12,23,10,NA,24,6,NA),100)
+outcome <- rep(gl(3,1,9),100)
+treatment <- rep(gl(3,3),100)
+counts<-cbind(counts1,counts2)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+f()
+microbenchmark(logLik(modelKFAS),f())
+dim(counts)
+sample(1:30,replace=TRUE,size=10000)
+counts<-matrix(sample(1:30,replace=TRUE,size=10000),ncol=20)
+dim(counts)
+gl(3,1,10)
+length(gl(3,1,10))
+outcome <- rep(gl(3,1,10),1000)
+gl(3,3)
+gl(3,1,10)
+gl(5,1,10)
+gl(5,1,500)
+length(gl(5,1,500))
+gl(5,500)
+outcome <- gl(5,1,500)
+treatment <- gl(5,100)
+length(outcome)
+length(treatment)
+counts<-matrix(sample(1:30,replace=TRUE,size=10000),ncol=20)
+counts[sample(1:length(counts),size=1000)]<-NA
+outcome <- gl(5,1,500)
+treatment <- gl(5,100)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+modelKFAS
+f()
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+theta
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+logLik(modelKFAS)
+counts<-matrix(sample(1:30,replace=TRUE,size=10000),ncol=20)
+counts[sample(1:length(counts),size=1000)]<-NA
+outcome <- gl(2,1,500)
+treatment <- gl(2,250)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+model
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+model
+modeKFAS
+modelKFAS
+logLik(modelKFAS)
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+app<-approxSSM(modelKFAS)
+app$theta
+app$iter
+range(app$theta)
+range(app$y)
+range(app$y,na.rm=TRUE)
+range(app$H,na.rm=TRUE)
+counts<-matrix(sample(1:30,replace=TRUE,size=10000),ncol=20)
+outcome <- gl(2,1,500)
+treatment <- gl(2,250)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,0,1e-10,theta)
+dim(model$y)
+dim(model$Z)
+dist
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,0,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+logLik(modelKFAS)
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+counts<-matrix(sample(1:30,replace=TRUE,size=10000),ncol=20)
+counts[sample(1:length(counts),size=1000)]<-NA
+outcome <- gl(2,1,500)
+treatment <- gl(2,250)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+f<-function(){
+theta<-KFAS:::init_theta(model$y, model$u, model$distribution)
+dist<-pmatch(x = model$distribution,
+table = c("gaussian", "poisson", "binomial",
+"gamma", "negative binomial"), duplicates.ok = TRUE)
+lik<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf,
+dist, model$tol,100,1e-10,theta)
+lik+KFAS:::scaling(model$y,model$u,model$distribution,theta)
+}
+microbenchmark(logLik(modelKFAS),f(),times=5)
+modelKFAS
+outcome <- gl(5,1,500)
+length(outcome)
+treatment <- gl(5,100)
+length(treatment)
+model<-buildSSGLMM(counts ~ outcome + treatment,distribution="poisson")
+modelKFAS<-SSModel(counts ~ outcome + treatment,distribution="poisson")
+logLik(modelKFAS)
+f()
+microbenchmark(logLik(modelKFAS),f(),times=3)
+theta
+load("../gitrepos/GLMMF/kmodel.rda")
+library(KFAS)
+load("kmodel.rda")
+library(KFAS)
+app<-approxSSM(kmodel)
+out<-KFS(app,simpl=F,filtering="state")
+app2<-app
+app2$a1[1:12]<-out$alpha[28,1:12]
+app2$P1inf[]<-0
+out2<-KFS(app2,simpl=F,filtering="state")
+all.equal(out$alpha,out2$alpha)
+out2$K
+out2$N
+t(app$Z[,,28])%*%solve(t(app$Z[,,28])%*%out2$P[,,28]%*%app$Z[,,28]+app$H[,,28])%*%app$Z[,,28]
+t(app$Z[,,28])
+dim(t(app$Z[,,28]))
+t(app$Z[,,28])%*%solve(app$Z[,,28]%*%out2$P[,,28]%*%t(app$Z[,,28]+app$H[,,28]))%*%app$Z[,,28]
+t(app$Z[,,28])%*%solve(app$Z[,,28]%*%out2$P[,,28]%*%t(app$Z[,,28])+app$H[,,28])%*%app$Z[,,28]
+out2$N[,,28]
+all.equal(t(app$Z[,,28])%*%solve(app$Z[,,28]%*%out2$P[,,28]%*%t(app$Z[,,28])+app$H[,,28])%*%app$Z[,,28],out2$N[,,28])
+all.equal(t(app$Z[,,28])%*%solve(app$Z[,,28]%*%out2$P[,,28]%*%t(app$Z[,,28])+app$H[,,28])%*%app$Z[,,28],out2$N[,,28],
+check.attributes=FALSE)
+out$d
+t<-10
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t],out2$N[,,t],
+check.attributes=FALSE)
+Finf<-solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+Finv<-solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out2$K[,,t]%*%Finv%*%app$Z[,,t]
+L
+Tt<-app$T[,,1]
+t(Tt)%*%out2$N[,,t]%*%Tt
+t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L
+L<-diag(14)-out2$K[,,t]%*%Finv%*%app$Z[,,t] #toinen termi on nolla ei-faktoreille
+L
+t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L
+t(Tt)%*%out2$N[,,t]%*%Tt
+t(L)%*%t(Tt)
+t(L)
+t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L
+all.equal(t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L,t(Tt)%*%out2$N[,,t]%*%Tt)
+all.equal(out2$N[,,t],t(Tt)%*%out2$N[,,t+1]%*%Tt)
+all.equal(out2$N[,,t-1],t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+t(Tt)%*%out2$N[,,t]%*%Tt)
+Finv<-solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out2$K[,,t]%*%Finv%*%app$Z[,,t]
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t],out2$N[,,t],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t],out2$N[,,t-1],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+all.equal(t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L,out2$N[,,t-1],
+check.attributes=FALSE)
+t<-20
+Finv<-solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out2$K[,,t]%*%Finv%*%app$Z[,,t]
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+all.equal(t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L,out2$N[,,t-1],
+check.attributes=FALSE)
+t<-20
+Finv<-solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out2$K[,,t]%*%Finv%*%app$Z[,,t]
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L,out2$N[,,t-1],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L,out2$N[,,t],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+t(L)%*%t(Tt)%*%out2$N[,,t]%*%Tt%*%L,out2$N[,,t+1],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+t(L)%*%t(Tt)%*%out2$N[,,t+1]%*%Tt%*%L,out2$N[,,t],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%solve(app$Z[,,t]%*%out2$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])%*%app$Z[,,t]+
+t(Tt)%*%out2$N[,,t+1]%*%Tt,out2$N[,,t],
+check.attributes=FALSE)
+all.equal(t(app$Z[,,t])%*%Finv%*%app$Z[,,t]+
+t(Tt)%*%out2$N[,,t+1]%*%Tt,out2$N[,,t],
+check.attributes=FALSE)
+out2$N[,,t]
+all.equal(out2$N[,,t],out$N[,,t])
+dim(out2$vt)
+dim(out2$v)
+out2$v
+all.equal(out2$v,out$v)
+all.equal(t(app$Z[,,t])%*%Finv%*%app$Z[,,t]+
+t(Tt)%*%out$N[,,t+1]%*%Tt,out$N[,,t],
+check.attributes=FALSE)
+Finv<-solve(app$Z[,,t]%*%out$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+all.equal(t(app$Z[,,t])%*%Finv%*%app$Z[,,t]+
+t(Tt)%*%out$N[,,t+1]%*%Tt,out$N[,,t],
+check.attributes=FALSE)
+t(app$Z[,,t])%*%Finv*out$v[t,]+t(L)%*%t(Tt)*out$r[,t+1]
+t(app$Z[,,t])%*%Finv*out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t]
+out$r[,t]
+out$r[,t-1]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+out$r[,t+1]
+out$r[,t-1]
+out$r[,t]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+t(Tt)%*%out$r[,t]
+Finv<-solve(app$Z[,,t]%*%out$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out$K[,,t]%*%Finv%*%app$Z[,,t]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+t(Tt)%*%out$r[,t]
+out$r[,t]
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+t(Tt)
+t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+out$alpha[t,]
+r<-t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+T%*%out$alpha[t,]+t(out$R[,,1])%*%r
+Tt%*%out$alpha[t,]+t(out$R[,,1])%*%r
+out$R[,,1]
+Tt%*%out$alpha[t,]+t(app$R[,,1])%*%r
+t(app$R[,,1])
+Tt%*%out$alpha[t,]+diag(2)%*%t(app$R[,,1])%*%r
+diag(2)%*%t(app$R[,,1])
+app$R[,,1]%*%diag(2)%*%t(app$R[,,1])
+Tt%*%out$alpha[t,]+app$R[,,1]%*%diag(2)%*%t(app$R[,,1])%*%r
+out$alpha[t+1,]
+Tt%*%out$alpha[t,]+app$R[,,1]%*%diag(2)%*%t(app$R[,,1])%*%out$r[,t]
+out$alpha[t+1,]
+Tt%*%out$alpha[t,]+app$R[,,1]%*%diag(2)%*%t(app$R[,,1])%*%out$r[,t+1]
+out$alpha[t+1,]
+Finv<-solve(app$Z[,,t]%*%out$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out$K[,,t]%*%Finv%*%app$Z[,,t]
+r<-t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+r
+c(r)
+Finv<-solve(app$Z[,,t]%*%out$P[,,t]%*%t(app$Z[,,t])+app$H[,,t])
+L<-diag(14)-out$K[,,t]%*%Finv%*%app$Z[,,t]
+r<-t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%t(Tt)%*%out$r[,t+1]
+out$r[,t]
+c(r)
+r<-t(app$Z[,,t])%*%Finv%*%out$v[t,]+t(L)%*%out$r[,t+1]
+out$r[,t]
+c(r)
+k<-matrix(1:20,10,2)
+z<-matrix(0,2,10)
+z[1,1:10]<-1
+z[2,11:20]<-1
+k<-matrix(1:20,10,2)
+z<-matrix(0,2,10)
+z[1,1:5]<-1
+z[2,6:10]<-1
+k%*%z
+k
+z
+z2<-matrix(2:3,2,5,byrow=TRUE)
+z2
+z2<-matrix(2:3,2,5)
+z2
+k<-matrix(1:20,10,2)
+z<-matrix(0,2,10)
+z[1,1:5]<-2
+z[2,6:10]<-3
+k%*%z
+k%*%z2
+k[1:5,]%*%z2
+k[1:5,1]%*%z2
+k[1:5,1]%*%z2[1,]
+z2[1,]
+k[1:5,1]%*%t(z2[1,])
+k[,1]%*%t(z2[1,])
+cbind(k[,2]%*%t(z2[2,]),k[,2]%*%t(z2[2,]))
+all.equal(k%*%z,cbind(k[,1]%*%t(z2[1,]),k[,2]%*%t(z2[2,])))
+t(z)%*%t(k)
+k[,1]%*%t(z2[1,])
+k[,1]%*%z2[1,]
+z2[1,]%*%t(k[,1])
+t(z)%*%t(k)
+all.equal(t(z)%*%t(k),rbind(z2[1,]%*%t(k[,1]),z2[2,]%*%t(k[,2])))
+z2[1,]
+t(k[,1])
+cumsum(1:3)
+load("../StateSpaceGLMM/spiderdata.rda")
+library(GLMMF)
+set.seed(1)
+randu1<-rnorm(max(spiderdata[,"site"]))
+randu2<-rnorm(max(spiderdata[,"site"]))
+fitinit<-glmmf(group="species",response="abundance",distinct=~randu1+randu2,nfactors=0,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS")
+fitinit$log #-3307.467
+initmat<-t(matrix(fitinit$coefs[,28],nrow=3)[2:3,])
+init.factors<-initmat[lower.tri(initmat,TRUE)]
+fit<-glmmf(group="species",response="abundance",distinct=~1,nfactors=2,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS",init.factor=initmat,estimate=FALSE)
+fit<-glmmf(group="species",response="abundance",distinct=~1,nfactors=2,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS")
+library(GLMMF)
+fit<-glmmf(group="species",response="abundance",distinct=~1,nfactors=2,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS")
+detach(package:GLMMF)
+library(GLMMF)
+fit<-glmmf(group="species",response="abundance",distinct=~1,nfactors=2,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS")
+library(GLMMF)
+fit<-glmmf(group="species",response="abundance",distinct=~1,nfactors=2,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS")
+library(GLMMF)
+fit<-glmmf(group="species",response="abundance",distinct=~1,nfactors=2,distribution="poisson",
+data=spiderdata,control=list(trace=1,REPORT=1),method="BFGS")

@@ -1,0 +1,16 @@
+{
+    "contents" : "#ifndef GLMMFINTERNALS\n#define GLMMFINTERNALS\n\n//#define ARMA_NO_DEBUG\n#include \"RcppArmadillo.h\"\n\nvoid filter(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,\nconst arma::umat& zind, const int nfactors, arma::mat& coefs,arma::cube& coefVars);\n\ndouble deviance(const arma::mat& y, const arma::mat& u, const Rcpp::IntegerVector& dist, const arma::mat& theta);\n\ndouble filterFInternal(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::vec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol, arma::mat& theta,\nconst arma::umat& zind, const int nfactors);\n\ndouble filterInternal(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::vec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol, arma::mat& theta,\nconst arma::umat& zind);\n\ndouble approxInternal(const arma::mat& y, const arma::cube& Z, const arma::mat& u, const arma::vec& a1, \nconst arma::mat& P1, const arma::mat& P1inf, const Rcpp::IntegerVector& dist, const double tol, \narma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const double convtol, int& conv,\nconst arma::umat& zind, const int nfactors);\n\n//double dnormSumLog(const arma::vec& x, const arma::vec& means,const arma::vec& vars);\ndouble scaling(int dist, const arma::vec& y, const arma::vec& u,const arma::vec& theta,\n               const arma::vec& ytilde, const arma::vec& H);\n#endif",
+    "created" : 1413810728605.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3865590265",
+    "id" : "DE6A1E17",
+    "lastKnownWriteTime" : 1414136510,
+    "path" : "U:/MyPrograms/gitrepos/GLMMF/src/ssglmInternals.h",
+    "project_path" : "src/ssglmInternals.h",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "h"
+}

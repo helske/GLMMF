@@ -1,0 +1,17 @@
+{
+    "contents" : "\nlikfn1<-function(pars){\n  model$Z[1,14,]<-pars\n  logLik(approxSSM(model,tol=1e-15,maxiter=500))\n}\n\n\n\n\nlikfn2<-function(pars){\n  model$Z[1,14,]<-pars\n  app<-approxSSM(model,tol=1e-15,maxiter=500)\n  sum(dnorm(app$y,app$theta,sqrt(t(apply(app$H,3,diag))),log=TRUE))\n}\n\nlikfn2b<-function(pars){\n  model$Z[1,14,]<-pars\n  app<-approxSSM(model,tol=1e-15,maxiter=500)\n  sum(dnorm(app$y[,1],app$theta[,1],sqrt(app$H[1,1,]),log=TRUE))\n}\n\nlikfn3<-function(pars){\n  app<-approxSSM(model,tol=1e-15,maxiter=500)\n  app$Z[1,14,]<-pars\n  out<-KFS(app,smoothing=\"mean\")\n  sum(dnorm(app$y,out$mu,sqrt(t(apply(app$H,3,diag))),log=TRUE))\n}\n\ngrad(likfn1,1)\ngrad(likfn2,1)\ngrad(likfn3,1)\nlikfnx(1)\nlikfnx<-function(pars){\n  model$Z[1,14,]<-pars\n  app<-approxSSM(model,tol=1e-15,maxiter=500)\n  out<-KFS(app)\n  sum(sapply(1:37,function(i){\n  (app$y[i,1]-app$theta[i,1])*out$alpha[i,14]/app$H[1,1,i]\n    #colSums(solve(app$H[,,i])%*%(app$y[i,]-app$theta[i,])%*%out$alpha[i,])\n  }))\n}\n\n\nlikfnx<-function(pars){\n  model$Z[1,14,]<-pars\n  app<-approxSSM(model,tol=1e-15,maxiter=500)\n  out<-KFS(app)\n  rowSums(sapply(1:37,function(i){\n    solve(app$H[,,i])%*%(app$y[i,]-app$theta[i,])\n    #colSums(solve(app$H[,,i])%*%(app$y[i,]-app$theta[i,])%*%out$alpha[i,])\n  }))\n}\n\nlikfnx(1)\n\n",
+    "created" : 1414930334347.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "3108719015",
+    "id" : "F2DAE1B0",
+    "lastKnownWriteTime" : 7306087009984782433,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled4"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

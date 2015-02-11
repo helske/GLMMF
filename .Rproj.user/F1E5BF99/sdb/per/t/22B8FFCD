@@ -1,0 +1,16 @@
+{
+    "contents" : "library(lme4)\nlibrary(GLMMF)\n\n(fm1 <- lmer(Reaction ~ Days + (Days | Subject), sleepstudy))\nsummary(fm1)# (with its own print method)\n\nmodel<-  buildGLMMF(group=\"Subject\",response=\"Reaction\",common=~Days,random=~Days,data=sleepstudy,\n                    random.cov=VarCorr(fm1)$Subject,u=attr(VarCorr(fm1), \"sc\")^2)\n\ntheta <- KFAS:::init_theta(model$y, model$u, rep(model$distribution,18 ))\ndist<-rep(pmatch(x = model$distribution, \n             table = c(\"gaussian\", \"poisson\", \"binomial\", \n                       \"gamma\", \"negative binomial\"), duplicates.ok = TRUE),18)\n\nres<-GLMMF:::expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, \n                             dist, model$tol, 100, 1e-10, theta, model$Zind, model$nfactors)\n\n\nall.equal(res$logLik+KFAS:::scaling(model$y,model$u,rep(model$distribution,18),res$theta),\n          as.numeric(logLik(fm1)),check.attributes=FALSE)\n\nfit<-glmmf(group=\"Subject\",response=\"Reaction\",common.f=~Days,random=~Days,data=sleepstudy,\n           ,control=list(trace=1,REPORT=1),init.disp=attr(VarCorr(fm1), \"sc\")^2,\n           init.random.cov=VarCorr(fm1)$Subject,correlating.effects=TRUE)\n\nfit<-glmmf(group=\"Subject\",response=\"Reaction\",common.f=~Days,random=~Days,data=sleepstudy,\n           control=list(trace=1,REPORT=1),correlating.effects=TRUE)\n\nfit<-glmmf(group=\"Subject\",response=\"Reaction\",common.f=~Days,random=~Days,data=sleepstudy,\n           method=\"BFGS\",control=list(trace=1,REPORT=1),correlating.effects=TRUE)\n\nfit$model$u[1]\n(attr(VarCorr(fm1), \"sc\")^2)\n\n(fm1 <- lmer(Reaction ~ Days + (Days | Subject), sleepstudy,REML=TRUE))\nlogLik(fm1,REML=TRUE)\nlogLik(fm1,REML=FALSE)\n\n(fm1 <- glmer(Reaction ~ Days + (Days | Subject), sleepstudy,REML=TRUE))\nlogLik(fm1,REML=TRUE)\nlogLik(fm1,REML=FALSE)\n",
+    "created" : 1413808834861.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2265968945",
+    "id" : "22B8FFCD",
+    "lastKnownWriteTime" : 1413810667,
+    "path" : "U:/MyPrograms/gitrepos/GLMMF/lmerComparison.R",
+    "project_path" : "lmerComparison.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

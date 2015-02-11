@@ -1,0 +1,16 @@
+{
+    "contents" : "#ifndef GLMMFINTERNALS\n#define GLMMFINTERNALS\n\n//#define ARMA_NO_DEBUG\n#include \"RcppArmadillo.h\"\n\nvoid smootherF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,\nconst arma::umat& zind, const int nfactors, arma::mat& coefs,arma::cube& coefVars);\n\nvoid smootherNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,\nconst arma::umat& zind, arma::mat& coefs,arma::cube& coefVars);\n\n\ndouble filterInApproxF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::vec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol, \nconst arma::umat& zind, const int nfactors, arma::mat& coefs);\n\ndouble filterInApproxNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,\nconst arma::vec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,\nconst arma::umat& zind, arma::vec& at);\n\ndouble approxF(const arma::mat& y, const arma::cube& Z, const arma::mat& u, const arma::vec& a1, \nconst arma::mat& P1, const arma::mat& P1inf, const int dist, const double tol, \narma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const int maxiter2, const double convtol, int& conv,\nconst arma::umat& zind, const int nfactors, const int trace);\n\ndouble approxNF(const arma::mat& y, const arma::cube& Z, const arma::mat& u, const arma::vec& a1, \nconst arma::mat& P1, const arma::mat& P1inf, const int dist, const double tol, \narma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const int maxiter2, const double convtol, int& conv,\nconst arma::umat& zind, const int trace);\n\ndouble scaling(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta,\n               const arma::mat& ytilde, const arma::mat& H);\n                              \ndouble deviance(const arma::mat& y, const arma::mat& u, const int dist, const arma::mat& theta);\n#endif",
+    "created" : 1414592863079.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "120351328",
+    "id" : "55E3649B",
+    "lastKnownWriteTime" : 1414826522,
+    "path" : "U:/MyPrograms/gitrepos/GLMMF/src/GLMMF.h",
+    "project_path" : "src/GLMMF.h",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "h"
+}
