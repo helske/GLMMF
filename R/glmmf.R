@@ -86,19 +86,7 @@ glmmf<-
     
     if(out$conv<0){
       stop(paste("Approximating algorithm did not converge. Error code ",out$conv))      
-    }
-    # results<-list(fi
-    
-    #     results<-list(fixed=list(coef=coef(kfs.out,1,1)[1:k.fix],V_fixed=kfs.out$V[1:k.fix,1:k.fix,1]),
-    #                   random=if(k.rand>0) list(effects=coef(kfs.out,1,1)[-(1:k.fix)],V_random=kfs.out$V[-(1:k.fix),-(1:k.fix),1],
-    #                                            P=model$P1[(k.fix+1):(k.fix+k.rand),(k.fix+1):(k.fix+k.rand)]) else NULL,
-    #                   factors=if(latent.factors>0) list(gamma=model$Z[,(ncol(model$Z)-latent.factors+1):ncol(model$Z),1],
-    #                                                     u=coef(kfs.out)[,(ncol(model$Z)-latent.factors+1):ncol(model$Z)],
-    #                                                     V=kfs.out$V[(ncol(model$Z)-latent.factors+1):ncol(model$Z),
-    #                                                                 (ncol(model$Z)-latent.factors+1):ncol(model$Z),]) else NULL,
-    #                   fitted=list(fitted=kfs.out$mu,V=kfs.out$V_muhat),
-    #                   dispersions=model$u[1,],logLik=ll,
-    #                   call= match.call(expand.dots = FALSE), model=if(return.model) model else NULL)
+    }  
     results<-c(out,res)
     class(results)<-"glmmf.results"
     results

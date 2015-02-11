@@ -1,0 +1,11 @@
+src-i386/
+src-x64/
+.Rproj.user
+.Rhistory
+.RData
+*.o
+*.so
+*.dll
+*.Rproj
+.project
+.settings/org.eclipse.core.resources.prefs

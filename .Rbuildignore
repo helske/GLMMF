@@ -1,2 +1,6 @@
+^.*\.git$
 ^.*\.Rproj$
 ^\.Rproj\.user$
+^.*\.project
+^TODO$
+^\.travis\.yml$
