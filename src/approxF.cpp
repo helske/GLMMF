@@ -15,171 +15,78 @@
 
 double approxF(const arma::mat& y, const arma::cube& Z, const arma::mat& u, const arma::vec& a1,
 const arma::mat& P1, const arma::mat& P1inf, const int dist, const double tol, 
-arma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const int maxiter2, const double convtol, int& conv,
+arma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const int maxiter2, 
+const double convtol, int& conv,
 const arma::umat& zind, const int nfactors, const int trace) {
   
   int n = Z.n_slices;
   int p = Z.n_cols;
   arma::uvec ind(1);
+  double lik;
   
-  double ll_old;
-  double ll=0.0;
   
-  arma::mat coefs(a1.n_elem,Z.n_slices); 
-  arma::mat coefs_old(a1.n_elem,Z.n_slices);
-  arma::mat coefs_tmp(a1.n_elem,Z.n_slices);  
-  switch (dist) {
-    case 1:
-    H = u;
-    ytilde = y;
-    break;
-    case 2:
-    H = exp(-theta)/u;
-    ytilde = y%H + theta - 1.0;
-    break;
-    case 3:        
-    H = (1.0+exp(theta))%(1.0+exp(theta))/(u%exp(theta));
-    ytilde = theta + H*y - 1.0 - exp(theta);
-    break;
-    case 4:       
-    H = 1.0/u;
-    ytilde = theta+y/exp(theta)-1.0;
-    break;
-    case 5:
-    H = (1.0/u+1.0/exp(theta));
-    ytilde = theta+y/exp(theta)-1.0;
-    break;
-  }   
+  double dev_old = 0.0;
+  double dev;
   
-  ll_old = filterInApproxF(ytilde, Z, H, a1, P1, P1inf, tol,zind, nfactors, coefs);
-  for(int t = 0; t<n; t++){
-    ind =t;
-    for(int i = 0; i<p; i++){
-      theta(t,i) = arma::accu(Z.slice(t).col(i)%coefs(zind.col(i),ind));
-    }
-  }  
   
+  dev_old = pytheta(dist,y,u,theta,ytilde,H)+ ptheta(theta, Z, a1, P1, P1inf, tol, zind, nfactors);
+ 
   if(dist > 1){
-    ll_old += scaling(dist,y,u,theta,ytilde,H);
-  } else return ll_old; //no need to iterate with gaussian model
+    ytildeH(dist, y, u, theta, ytilde, H);
+    return dev_old; //no need to iterate with gaussian model
+  }
+  arma::mat theta_old(n,p);    
+  theta_old = theta; 
   
   int iter2;
-  int iter=0;
-  while(iter < maxiter && arma::is_finite(ll)){  
+  int iter = 0;
+  while(iter < maxiter){  
     
     iter++;
-    conv=iter;    
-    switch (dist) {
-      case 1:
-      H = u;
-      ytilde = y;
-      break;
-      case 2:
-      H = exp(-theta)/u;
-      ytilde = y%H + theta - 1.0;
-      break;
-      case 3:        
-      H = (1.0+exp(theta))%(1.0+exp(theta))/(u%exp(theta));
-      ytilde = theta + H*y - 1.0 - exp(theta);
-      break;
-      case 4:       
-      H = 1.0/u;
-      ytilde = theta+y/exp(theta)-1.0;
-      break;
-      case 5:
-      H = (1.0/u+1.0/exp(theta));
-      ytilde = theta+y/exp(theta)-1.0;
-      break;
-    }   
+    conv = iter;   
     
-    ll = filterInApproxF(ytilde, Z, H, a1, P1, P1inf, tol,zind, nfactors, coefs);
-    for(int t = 0; t<n; t++){
-      ind =t;
-      for(int i = 0; i<p; i++){
-        theta(t,i) = arma::accu(Z.slice(t).col(i)%coefs(zind.col(i),ind));
-      }
-    } 
-    if(dist > 1){
-      ll += scaling(dist,y,u,theta,ytilde,H);
-    }
+    ytildeH(dist, y, u, theta, ytilde, H);
+    lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta);
+    dev = pytheta(dist,y,u,theta,ytilde,H) + ptheta(theta, Z, a1, P1, P1inf, tol, zind, nfactors);
     
-    if( (((ll - ll_old)/(0.1 + std::abs(ll))) <= -convtol ) && iter>1 && maxiter2>0){
+    if( (((dev - dev_old)/(0.1 + std::abs(dev))) < convtol ) && iter>1 && maxiter2>0){
       iter2 = 0;      
-      while(((ll - ll_old)/(0.1 + std::abs(ll))) < convtol && iter2<maxiter2 && arma::is_finite(ll)){
+      while(((dev - dev_old)/(0.1 + std::abs(dev))) < 0.0 && iter2<maxiter2){
         iter2++;
         if(trace>0){
           Rcpp::Rcout<<"Step size halved due to decreasing likelihood."<<std::endl;
         }
         
-        coefs = (coefs + coefs_old)/2.0;        
-        for(int t = 0; t<n; t++){
-          ind =t;
-          for(int i = 0; i<p; i++){
-            theta(t,i) = arma::accu(Z.slice(t).col(i)%coefs(zind.col(i),ind));
-          }
-        } 
+        theta = 0.5*(theta + theta_old);        
         
-        switch (dist) {
-          case 1:
-          H = u;
-          ytilde = y;
-          break;
-          case 2:
-          H = exp(-theta)/u;
-          ytilde = y%H + theta - 1.0;
-          break;
-          case 3:        
-          H = (1.0+exp(theta))%(1.0+exp(theta))/(u%exp(theta));
-          ytilde = theta + H*y - 1.0 - exp(theta);
-          break;
-          case 4:       
-          H = 1.0/u;
-          ytilde = theta+y/exp(theta)-1.0;
-          break;
-          case 5:
-          H = (1.0/u+1.0/exp(theta));
-          ytilde = theta+y/exp(theta)-1.0;
-          break;
-        }
-        ll = filterInApproxF(ytilde, Z, H, a1, P1, P1inf, tol,zind, nfactors,coefs_tmp);    
-        for(int t = 0; t<n; t++){
-          ind =t;
-          for(int i = 0; i<p; i++){
-            theta(t,i) = arma::accu(Z.slice(t).col(i)%coefs_tmp(zind.col(i),ind));
-          }
-        } 
-        if(dist > 1){
-          ll += scaling(dist,y,u,theta,ytilde,H);
-        }        
+        ytildeH(dist, y, u, theta, ytilde, H);
+        lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta);
+        dev = pytheta(dist,y,u,theta,ytilde,H) + ptheta(theta, Z, a1, P1, P1inf, tol, zind, nfactors);
+        
       }
       if(iter2==maxiter2){
         if(trace>0){
           Rcpp::Rcout<<"Could not correct step size."<<std::endl;
         }       
       }      
-      coefs = coefs_tmp;
       
     }         
     
-    
     if(trace>1){
-      Rcpp::Rcout<<"Iteration " << iter <<", Log-likelihood: " << ll <<std::endl;
+      Rcpp::Rcout<<"Iteration " << iter <<", p(theta|y): " << dev <<std::endl;
     }
-    
-    
-    
-    
     
     if(!theta.is_finite()){
       conv = -3;
       break;      
     }
-    if(std::abs(ll - ll_old)/(0.1 + std::abs(ll)) < convtol){
+    if(std::abs(dev - dev_old)/(0.1 + std::abs(dev)) < convtol){
       break;
+    } else {
+      theta_old = theta;
+      dev_old = dev;
     }
     
-    coefs_old = coefs;    
-    ll_old = ll;
     
   }
   if(Rcpp::NumericMatrix::is_na(ll)){
@@ -195,7 +102,7 @@ const arma::umat& zind, const int nfactors, const int trace) {
     conv = 0;
   }
   
-  return ll;
+  return lik;
   
 }
 

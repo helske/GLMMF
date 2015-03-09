@@ -13,7 +13,7 @@
 // via the exports attribute we tell Rcpp to make this function
 // available from R
 
-double smootherNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+void smootherNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
 const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,
 const arma::umat& zind, arma::mat& coefs,arma::cube& coefVars) {
   
@@ -245,5 +245,4 @@ const arma::umat& zind, arma::mat& coefs,arma::cube& coefVars) {
     } 
   }
   
-  return lik;
 }

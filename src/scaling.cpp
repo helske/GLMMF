@@ -2,7 +2,8 @@
 // [[Rcpp::depends(RcppArmadillo)]]
 
 double scaling(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta,
-               const arma::mat& ytilde, const arma::mat& H){
+const arma::mat& ytilde, const arma::mat& H){
+  
   double res=0.0;  
   switch (dist) {       
     case 2:    
@@ -22,7 +23,7 @@ double scaling(const int dist, const arma::mat& y, const arma::mat& u,const arma
     case 4:
     for(unsigned int i=0; i<y.n_elem; i++){
       if(arma::is_finite(y(i))){
-         res += R::dgamma( y(i), u(i), exp(theta(i))/u(i), 1)- R::dnorm( ytilde(i), theta(i), sqrt(H(i)), 1);
+        res += R::dgamma( y(i), u(i), exp(theta(i))/u(i), 1)- R::dnorm( ytilde(i), theta(i), sqrt(H(i)), 1);
       }
     }
     break;
