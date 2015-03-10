@@ -90,13 +90,14 @@ glmmf2<-
     dist<-pmatch(x = model$distribution, 
                      table = c("gaussian", "poisson", "binomial", 
                                "gamma", "negative binomial"))
-    out<-filterNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, dist, 
+    out<-smoother(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, dist, 
                      model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace)
    
     
     if(out$conv<0){
       stop(paste("Approximating algorithm did not converge. Error code ",out$conv))      
-    }  results<-c(out,res)
+    }  
+    results<-c(out,res)
     class(results)<-"glmmf.results"
     results
     

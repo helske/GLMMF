@@ -22,6 +22,8 @@ const arma::umat& zind, arma::mat& theta) {
   double tiny = std::numeric_limits<double>::min();
   
   arma::mat pt(P1.begin(),P1.n_rows,P1.n_rows);  
+  arma::vec at(P1.n_rows);
+  
   at = a1;
   arma::vec kt(pt.n_rows);
   
@@ -240,9 +242,10 @@ const arma::umat& zind, arma::mat& theta) {
     } 
   }
   
-  for(int t = 0; t<n; t++){
-    ind =t;
-    for(int i = 0; i<p; i++){
+  arma::uvec ind(1);
+  for(int t = 0; t<Z.n_slices; t++){
+    ind=t;
+    for(int i = 0; i<Z.n_cols; i++){
       theta(t,i) = arma::accu(Z.slice(t).col(i)%at(zind.col(i),ind));
     }
   }  

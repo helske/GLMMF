@@ -5,11 +5,11 @@ approxG <- function(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, 
     .Call('GLMMF_approxG', PACKAGE = 'GLMMF', y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace)
 }
 
-expfLogLikNoSim <- function(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad) {
-    .Call('GLMMF_expfLogLikNoSim', PACKAGE = 'GLMMF', y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad)
+likelihood <- function(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad) {
+    .Call('GLMMF_likelihood', PACKAGE = 'GLMMF', y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad)
 }
 
-filterNoSim <- function(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace) {
-    .Call('GLMMF_filterNoSim', PACKAGE = 'GLMMF', y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace)
+smoother <- function(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace) {
+    .Call('GLMMF_smoother', PACKAGE = 'GLMMF', y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace)
 }
 

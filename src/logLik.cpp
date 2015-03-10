@@ -14,7 +14,7 @@
 // available from R
 // [[Rcpp::export]]
 
-Rcpp::List logLik(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_,
+Rcpp::List likelihood(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_,
 const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, 
 const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_
 , const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace,const int compgrad){
@@ -38,22 +38,22 @@ const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::Num
   arma::mat ytilde(n,p);
   arma::mat H(n,p);
   
-  double loglik; 
+  double lik; 
   int conv = 0; 
   
   // approximating Gaussian model 
   if(nfactors>0){
-    loglik = approxF(y, Z, u, a1, P1, P1inf, dist, tol, ytilde, H, theta, maxiter, maxiter2, convtol, 
+    lik = approxF(y, Z, u, a1, P1, P1inf, dist, tol, ytilde, H, theta, maxiter, maxiter2, convtol, 
     conv, zind, nfactors,trace);   
   } else {  
-    loglik = approxNF(y, Z, u, a1, P1, P1inf, dist, tol, ytilde, H, theta, maxiter, maxiter2, convtol, 
+    lik = approxNF(y, Z, u, a1, P1, P1inf, dist, tol, ytilde, H, theta, maxiter, maxiter2, convtol, 
     conv, zind, trace);
   }
   if(conv<0){
     return Rcpp::List::create(Rcpp::Named("logLik") = -std::numeric_limits<double>::max(), Rcpp::Named("convergence") = conv);
   }  
   
-  logLik =+ scaling(dist, y, u, theta, ytilde, H);
+  lik =+ scaling(dist, y, u, theta, ytilde, H);
   
   arma::mat grad(p,nfactors);
   grad.zeros();
@@ -86,5 +86,5 @@ const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::Num
   
   
   return Rcpp::List::create(Rcpp::Named("theta") = theta, Rcpp::Named("gradient") = grad,
-  Rcpp::Named("logLik") = loglik,Rcpp::Named("convergence") = conv);
+  Rcpp::Named("logLik") = lik,Rcpp::Named("convergence") = conv);
 }

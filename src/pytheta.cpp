@@ -1,8 +1,7 @@
 #include "GLMMF.h"
 // [[Rcpp::depends(RcppArmadillo)]]
 
-double pytheta(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta,
-               const arma::mat& ytilde, const arma::mat& H){
+double pytheta(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta){
   double res=0.0;  
   switch (dist) {       
     case 2:    

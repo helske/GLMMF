@@ -19,21 +19,20 @@ arma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const int
 const double convtol, int& conv,
 const arma::umat& zind, const int trace) {
   
+  if(dist == 1){
+    //no need to iterate with gaussian model
+    return newthetaNF(y, Z, u, a1, P1, P1inf, tol, zind, theta);   
+  }
+  
   int n = Z.n_slices;
   int p = Z.n_cols;
   arma::uvec ind(1);
   double lik;
   
-  
   double dev_old = 0.0;
-  double dev;
+  double dev =0.0;
   
-    
-  dev_old = pytheta(dist,y,u,theta,ytilde,H)+ ptheta(theta, Z, a1, P1, P1inf, tol, zind, 0);
- 
-  if(dist > 1){
-    return dev_old; //no need to iterate with gaussian model
-  }
+  dev_old = pytheta(dist,y,u,theta)+ ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, 0);
   
   arma::mat theta_old(n,p);    
   theta_old = theta;
@@ -50,7 +49,7 @@ const arma::umat& zind, const int trace) {
     
     ytildeH(dist, y, u, theta, ytilde, H);
     lik = newthetaNF(ytilde, Z, H, a1, P1, P1inf, tol, zind, theta);
-    dev = pytheta(dist,y,u,theta,ytilde,H) + ptheta(theta, Z, a1, P1, P1inf, tol, zind, 0);
+    dev = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, 0);
     
     if( (((dev - dev_old)/(0.1 + std::abs(dev))) < convtol ) && iter>1 && maxiter2>0){
       iter2 = 0;      
@@ -63,8 +62,8 @@ const arma::umat& zind, const int trace) {
         theta = 0.5*(theta + theta_old);        
         
         ytildeH(dist, y, u, theta, ytilde, H);
-        lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta);
-        dev = pytheta(dist,y,u,theta,ytilde,H) + ptheta(theta, Z, a1, P1, P1inf, tol, zind, 0);
+        lik = newthetaNF(ytilde, Z, H, a1, P1, P1inf, tol, zind, theta);
+        dev = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, 0);
         
       }
       if(iter2==maxiter2){
@@ -92,9 +91,9 @@ const arma::umat& zind, const int trace) {
     
     
   }
-  if(Rcpp::NumericMatrix::is_na(ll)){
+  if(Rcpp::NumericMatrix::is_na(dev)){
     if(trace>0){
-      Rcpp::Rcout << "Non-finite log-likelihood for Gaussian approximating model."<<std::endl;
+      Rcpp::Rcout << "Non-finite p(theta|y)."<<std::endl;
     }
     conv = -2;
   }

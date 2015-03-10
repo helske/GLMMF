@@ -1,5 +1,6 @@
 fitGLMMF2<-function(model,estimate.dispersion,correlating.effects,maxiter,maxiter2, convtol,
-                   init.random.cov,init.dispersion,init.factor,init.theta=NULL,common.dispersion,estimate,trace,
+                   init.random.cov,init.dispersion,init.factor,init.theta=NULL,
+                   common.dispersion,estimate,trace,
                    gradient=TRUE,maxapp=10,epsilon=1e-5,...){
   
   
@@ -99,8 +100,9 @@ fitGLMMF2<-function(model,estimate.dispersion,correlating.effects,maxiter,maxite
 #         if(itertheta)
 #           theta <-get("prevtheta",pos=env)
         
-        res<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
-                             1, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace,1)
+        res<-likelihood(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
+                             1, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, 
+                             model$nfactors,trace,1)
 #         res$theta[res$theta>5]<-5
 #         res$theta[res$theta< -5]<- -5
 #         assign("prevtheta",res$theta,pos=env)
@@ -142,7 +144,7 @@ fitGLMMF2<-function(model,estimate.dispersion,correlating.effects,maxiter,maxite
 #           if(itertheta)
 #             theta <-get("prevtheta",envir=env)
 #          
-        res<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
+        res<-likelihood(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
                              1, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace,1)
 #         res$theta[res$theta>5]<-5
 #         res$theta[res$theta< -5]<- -5
@@ -172,7 +174,7 @@ fitGLMMF2<-function(model,estimate.dispersion,correlating.effects,maxiter,maxite
     dist<-pmatch(x = model$distribution, 
                  table = c("gaussian", "poisson", "binomial", 
                            "gamma", "negative binomial"))    
-    true.model<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
+    true.model<-likelihood(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
                                 dist, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace,0)     
     theta<-true.model$theta
     llold<-true.model$logLik
@@ -189,7 +191,7 @@ fitGLMMF2<-function(model,estimate.dispersion,correlating.effects,maxiter,maxite
       inits<-fit$e
       amodel<-likfn(inits,amodel,FALSE)
       model<-likfn(inits,model,FALSE)      
-      true.model<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
+      true.model<-likelihood(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
                       dist, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace,0)     
       theta<-true.model$theta
       ll<-true.model$logLik

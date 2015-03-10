@@ -1,6 +1,6 @@
 #' Build Generalized Linear Mixed-Effects Model with Latent Factors
 #'
-#' Function \code{buildGLMMF} builds GLMM with latent factors using methods based on state space modelling. 
+#' Function \code{buildGLMMF} builds GLMM with latent factors used by \code{glmmf}. This function is exported for debugging purposes.
 #'
 #' @param group Name of the grouping variable in data. 
 #' Only one grouping variable is allowed and the group sizes must be equal. In case of unequal group sizes, 

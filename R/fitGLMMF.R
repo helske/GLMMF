@@ -109,7 +109,7 @@ fitGLMMF<-function(model,estimate.dispersion,correlating.effects,maxiter,maxiter
         if(itertheta)
           theta <-get("prevtheta",pos=env)
         
-        res<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
+        res<-likelihood(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
                              dist, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace,gradient)
         if(dist>1){
           res$theta[res$theta>5]<-5
@@ -148,7 +148,7 @@ fitGLMMF<-function(model,estimate.dispersion,correlating.effects,maxiter,maxiter
         if(itertheta)
           theta <-get("prevtheta",envir=env)
         
-        res<-expfLogLikNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
+        res<-likelihood(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, 
                              dist, model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace,gradient)
         if(dist>1){
           res$theta[res$theta>5]<-5

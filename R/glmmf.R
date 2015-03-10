@@ -80,7 +80,7 @@ glmmf<-
     dist<-pmatch(x = model$distribution, 
                      table = c("gaussian", "poisson", "binomial", 
                                "gamma", "negative binomial"))
-    out<-filterNoSim(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, dist, 
+    out<-smoother(model$y, model$Z, model$u, model$a1, model$P1, model$P1inf, dist, 
                      model$tol, maxiter, maxiter2, convtol, theta, model$Zind, model$nfactors,trace)
    
     

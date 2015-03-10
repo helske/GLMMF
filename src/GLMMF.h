@@ -4,22 +4,22 @@
 //#define ARMA_NO_DEBUG
 #include "RcppArmadillo.h"
 
-double smootherF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+void smootherF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
 const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,
 const arma::umat& zind, const int nfactors, arma::mat& coefs,arma::cube& coefVars);
 
-double smootherNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+void smootherNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
 const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,
 const arma::umat& zind, arma::mat& coefs,arma::cube& coefVars);
 
 
-double filterInApproxF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+double newthetaF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
 const arma::vec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol, 
-const arma::umat& zind, const int nfactors, arma::mat& coefs);
+const arma::umat& zind, const int nfactors, arma::mat& theta);
 
-double filterInApproxNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+double newthetaNF(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
 const arma::vec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,
-const arma::umat& zind, arma::vec& at);
+const arma::umat& zind, arma::mat& theta);
 
 double approxF(const arma::mat& y, const arma::cube& Z, const arma::mat& u, const arma::vec& a1, 
 const arma::mat& P1, const arma::mat& P1inf, const int dist, const double tol, 
@@ -33,6 +33,13 @@ const arma::umat& zind, const int trace);
 
 double scaling(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta,
                const arma::mat& ytilde, const arma::mat& H);
-                              
-double deviance(const arma::mat& y, const arma::mat& u, const int dist, const arma::mat& theta);
+
+void ytildeH(const int dist, const arma::mat& y, const arma::mat& u, const arma::mat& theta, arma::mat& ytilde, arma::mat& H);
+
+double pytheta(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta);
+               
+double ptheta(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,
+const arma::umat& zind, const int nfactors);
+
 #endif

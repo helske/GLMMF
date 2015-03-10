@@ -35,9 +35,9 @@ BEGIN_RCPP
     return __sexp_result;
 END_RCPP
 }
-// expfLogLikNoSim
-Rcpp::List expfLogLikNoSim(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace, const int compgrad);
-RcppExport SEXP GLMMF_expfLogLikNoSim(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP, SEXP compgradSEXP) {
+// likelihood
+Rcpp::List likelihood(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace, const int compgrad);
+RcppExport SEXP GLMMF_likelihood(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP, SEXP compgradSEXP) {
 BEGIN_RCPP
     SEXP __sexp_result;
     {
@@ -58,16 +58,16 @@ BEGIN_RCPP
         Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP );
         Rcpp::traits::input_parameter< const int >::type trace(traceSEXP );
         Rcpp::traits::input_parameter< const int >::type compgrad(compgradSEXP );
-        Rcpp::List __result = expfLogLikNoSim(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad);
+        Rcpp::List __result = likelihood(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad);
         PROTECT(__sexp_result = Rcpp::wrap(__result));
     }
     UNPROTECT(1);
     return __sexp_result;
 END_RCPP
 }
-// filterNoSim
-Rcpp::List filterNoSim(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace);
-RcppExport SEXP GLMMF_filterNoSim(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP) {
+// smoother
+Rcpp::List smoother(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace);
+RcppExport SEXP GLMMF_smoother(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP) {
 BEGIN_RCPP
     SEXP __sexp_result;
     {
@@ -87,7 +87,7 @@ BEGIN_RCPP
         Rcpp::traits::input_parameter< const Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP );
         Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP );
         Rcpp::traits::input_parameter< const int >::type trace(traceSEXP );
-        Rcpp::List __result = filterNoSim(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace);
+        Rcpp::List __result = smoother(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace);
         PROTECT(__sexp_result = Rcpp::wrap(__result));
     }
     UNPROTECT(1);
