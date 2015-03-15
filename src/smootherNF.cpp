@@ -18,7 +18,7 @@ const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const doubl
 const arma::umat& zind, arma::mat& coefs,arma::cube& coefVars) {
   
   
-  double tiny = std::numeric_limits<double>::min();
+   double tiny = pow(std::numeric_limits<double>::epsilon(),0.75);
   
   arma::mat pt(P1.begin(),P1.n_rows,P1.n_rows);  
   arma::vec at(a1.begin(),P1.n_rows);

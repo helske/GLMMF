@@ -7,90 +7,78 @@
 using namespace Rcpp;
 
 // approxG
-Rcpp::List approxG(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace);
+Rcpp::List approxG(Rcpp::NumericMatrix y_, Rcpp::NumericVector Z_, Rcpp::NumericMatrix u_, Rcpp::NumericVector a1_, Rcpp::NumericMatrix P1_, Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace);
 RcppExport SEXP GLMMF_approxG(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP) {
 BEGIN_RCPP
-    SEXP __sexp_result;
-    {
-        Rcpp::RNGScope __rngScope;
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type y_(y_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericVector >::type Z_(Z_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type u_(u_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericVector >::type a1_(a1_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type P1_(P1_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type P1inf_(P1inf_SEXP );
-        Rcpp::traits::input_parameter< const int >::type dist(distSEXP );
-        Rcpp::traits::input_parameter< double >::type tol(tolSEXP );
-        Rcpp::traits::input_parameter< int >::type maxiter(maxiterSEXP );
-        Rcpp::traits::input_parameter< int >::type maxiter2(maxiter2SEXP );
-        Rcpp::traits::input_parameter< double >::type convtol(convtolSEXP );
-        Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type theta_(theta_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP );
-        Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP );
-        Rcpp::traits::input_parameter< const int >::type trace(traceSEXP );
-        Rcpp::List __result = approxG(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace);
-        PROTECT(__sexp_result = Rcpp::wrap(__result));
-    }
-    UNPROTECT(1);
-    return __sexp_result;
+    Rcpp::RObject __result;
+    Rcpp::RNGScope __rngScope;
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type y_(y_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type Z_(Z_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type u_(u_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type a1_(a1_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type P1_(P1_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type P1inf_(P1inf_SEXP);
+    Rcpp::traits::input_parameter< const int >::type dist(distSEXP);
+    Rcpp::traits::input_parameter< double >::type tol(tolSEXP);
+    Rcpp::traits::input_parameter< int >::type maxiter(maxiterSEXP);
+    Rcpp::traits::input_parameter< int >::type maxiter2(maxiter2SEXP);
+    Rcpp::traits::input_parameter< double >::type convtol(convtolSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type theta_(theta_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP);
+    Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP);
+    Rcpp::traits::input_parameter< const int >::type trace(traceSEXP);
+    __result = Rcpp::wrap(approxG(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace));
+    return __result;
 END_RCPP
 }
 // likelihood
-Rcpp::List likelihood(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace, const int compgrad);
+Rcpp::List likelihood(Rcpp::NumericMatrix y_, Rcpp::NumericVector Z_, Rcpp::NumericMatrix u_, Rcpp::NumericVector a1_, Rcpp::NumericMatrix P1_, Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace, const int compgrad);
 RcppExport SEXP GLMMF_likelihood(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP, SEXP compgradSEXP) {
 BEGIN_RCPP
-    SEXP __sexp_result;
-    {
-        Rcpp::RNGScope __rngScope;
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type y_(y_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericVector >::type Z_(Z_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type u_(u_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericVector >::type a1_(a1_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type P1_(P1_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type P1inf_(P1inf_SEXP );
-        Rcpp::traits::input_parameter< const int >::type dist(distSEXP );
-        Rcpp::traits::input_parameter< double >::type tol(tolSEXP );
-        Rcpp::traits::input_parameter< int >::type maxiter(maxiterSEXP );
-        Rcpp::traits::input_parameter< int >::type maxiter2(maxiter2SEXP );
-        Rcpp::traits::input_parameter< double >::type convtol(convtolSEXP );
-        Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type theta_(theta_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP );
-        Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP );
-        Rcpp::traits::input_parameter< const int >::type trace(traceSEXP );
-        Rcpp::traits::input_parameter< const int >::type compgrad(compgradSEXP );
-        Rcpp::List __result = likelihood(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad);
-        PROTECT(__sexp_result = Rcpp::wrap(__result));
-    }
-    UNPROTECT(1);
-    return __sexp_result;
+    Rcpp::RObject __result;
+    Rcpp::RNGScope __rngScope;
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type y_(y_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type Z_(Z_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type u_(u_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type a1_(a1_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type P1_(P1_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type P1inf_(P1inf_SEXP);
+    Rcpp::traits::input_parameter< const int >::type dist(distSEXP);
+    Rcpp::traits::input_parameter< double >::type tol(tolSEXP);
+    Rcpp::traits::input_parameter< int >::type maxiter(maxiterSEXP);
+    Rcpp::traits::input_parameter< int >::type maxiter2(maxiter2SEXP);
+    Rcpp::traits::input_parameter< double >::type convtol(convtolSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type theta_(theta_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP);
+    Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP);
+    Rcpp::traits::input_parameter< const int >::type trace(traceSEXP);
+    Rcpp::traits::input_parameter< const int >::type compgrad(compgradSEXP);
+    __result = Rcpp::wrap(likelihood(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace, compgrad));
+    return __result;
 END_RCPP
 }
 // smoother
-Rcpp::List smoother(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_, const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace);
+Rcpp::List smoother(Rcpp::NumericMatrix y_, Rcpp::NumericVector Z_, Rcpp::NumericMatrix u_, Rcpp::NumericVector a1_, Rcpp::NumericMatrix P1_, Rcpp::NumericMatrix P1inf_, const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_, Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace);
 RcppExport SEXP GLMMF_smoother(SEXP y_SEXP, SEXP Z_SEXP, SEXP u_SEXP, SEXP a1_SEXP, SEXP P1_SEXP, SEXP P1inf_SEXP, SEXP distSEXP, SEXP tolSEXP, SEXP maxiterSEXP, SEXP maxiter2SEXP, SEXP convtolSEXP, SEXP theta_SEXP, SEXP Zind_SEXP, SEXP nfactorsSEXP, SEXP traceSEXP) {
 BEGIN_RCPP
-    SEXP __sexp_result;
-    {
-        Rcpp::RNGScope __rngScope;
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type y_(y_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericVector >::type Z_(Z_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type u_(u_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericVector >::type a1_(a1_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type P1_(P1_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::NumericMatrix >::type P1inf_(P1inf_SEXP );
-        Rcpp::traits::input_parameter< const int >::type dist(distSEXP );
-        Rcpp::traits::input_parameter< double >::type tol(tolSEXP );
-        Rcpp::traits::input_parameter< int >::type maxiter(maxiterSEXP );
-        Rcpp::traits::input_parameter< int >::type maxiter2(maxiter2SEXP );
-        Rcpp::traits::input_parameter< double >::type convtol(convtolSEXP );
-        Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type theta_(theta_SEXP );
-        Rcpp::traits::input_parameter< const Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP );
-        Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP );
-        Rcpp::traits::input_parameter< const int >::type trace(traceSEXP );
-        Rcpp::List __result = smoother(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace);
-        PROTECT(__sexp_result = Rcpp::wrap(__result));
-    }
-    UNPROTECT(1);
-    return __sexp_result;
+    Rcpp::RObject __result;
+    Rcpp::RNGScope __rngScope;
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type y_(y_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type Z_(Z_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type u_(u_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericVector >::type a1_(a1_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type P1_(P1_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type P1inf_(P1inf_SEXP);
+    Rcpp::traits::input_parameter< const int >::type dist(distSEXP);
+    Rcpp::traits::input_parameter< double >::type tol(tolSEXP);
+    Rcpp::traits::input_parameter< int >::type maxiter(maxiterSEXP);
+    Rcpp::traits::input_parameter< int >::type maxiter2(maxiter2SEXP);
+    Rcpp::traits::input_parameter< double >::type convtol(convtolSEXP);
+    Rcpp::traits::input_parameter< Rcpp::NumericMatrix >::type theta_(theta_SEXP);
+    Rcpp::traits::input_parameter< Rcpp::IntegerMatrix >::type Zind_(Zind_SEXP);
+    Rcpp::traits::input_parameter< const int >::type nfactors(nfactorsSEXP);
+    Rcpp::traits::input_parameter< const int >::type trace(traceSEXP);
+    __result = Rcpp::wrap(smoother(y_, Z_, u_, a1_, P1_, P1inf_, dist, tol, maxiter, maxiter2, convtol, theta_, Zind_, nfactors, trace));
+    return __result;
 END_RCPP
 }

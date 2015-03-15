@@ -1,0 +1,5950 @@
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46439
+dev1 -3689.06
+y(d,j)
+2.46439
+dev2 -3633.96
+Iteration 1, p(theta|y): -3633.96
+theta2
+1.8878
+dev1 -2338.71
+y(d,j)
+1.8878
+dev2 -2324.2
+Iteration 2, p(theta|y): -2324.2
+theta2
+1.63808
+dev1 -2047.52
+y(d,j)
+1.63808
+dev2 -2091.14
+Iteration 3, p(theta|y): -2091.14
+theta2
+1.58104
+dev1 -1996.76
+y(d,j)
+1.58104
+dev2 -2070.67
+Iteration 4, p(theta|y): -2070.67
+theta2
+1.57574
+dev1 -1991.54
+y(d,j)
+1.57574
+dev2 -2070.16
+Iteration 5, p(theta|y): -2070.16
+theta2
+1.57563
+dev1 -1991.42
+y(d,j)
+1.57563
+dev2 -2070.16
+Iteration 6, p(theta|y): -2070.16
+theta2
+1.57563
+dev1 -1991.42
+y(d,j)
+1.57563
+dev2 -2070.16
+Iteration 7, p(theta|y): -2070.16
+initial  value 2256.940325 
+devold -366.132
+y(d,j)
+3.21888
+devold -1.86212e+018
+theta2
+2.46416
+dev1 -3688.47
+y(d,j)
+2.46416
+dev2 -3613.99
+Iteration 1, p(theta|y): -3613.99
+theta2
+1.88763
+dev1 -2338.45
+y(d,j)
+1.88763
+dev2 -2304.58
+Iteration 2, p(theta|y): -2304.58
+theta2
+1.63815
+dev1 -2047.35
+y(d,j)
+1.63815
+dev2 -2071.61
+Iteration 3, p(theta|y): -2071.61
+theta2
+1.58127
+dev1 -1996.62
+y(d,j)
+1.58127
+dev2 -2051.17
+Iteration 4, p(theta|y): -2051.17
+theta2
+1.576
+dev1 -1991.4
+y(d,j)
+1.576
+dev2 -2050.66
+Iteration 5, p(theta|y): -2050.66
+theta2
+1.57589
+dev1 -1991.28
+y(d,j)
+1.57589
+dev2 -2050.66
+Iteration 6, p(theta|y): -2050.66
+theta2
+1.57589
+dev1 -1991.28
+y(d,j)
+1.57589
+dev2 -2050.66
+Iteration 7, p(theta|y): -2050.66
+devold -366.132
+y(d,j)
+3.21888
+devold -3.34707e+019
+theta2
+2.46462
+dev1 -3689.66
+y(d,j)
+2.46462
+dev2 -3553.55
+Iteration 1, p(theta|y): -3553.55
+theta2
+1.88798
+dev1 -2338.97
+y(d,j)
+1.88798
+dev2 -2243.44
+Iteration 2, p(theta|y): -2243.44
+theta2
+1.63802
+dev1 -2047.68
+y(d,j)
+1.63802
+dev2 -2010.27
+Iteration 3, p(theta|y): -2010.27
+theta2
+1.58081
+dev1 -1996.91
+y(d,j)
+1.58081
+dev2 -1989.8
+Iteration 4, p(theta|y): -1989.8
+theta2
+1.57549
+dev1 -1991.68
+y(d,j)
+1.57549
+dev2 -1989.29
+Iteration 5, p(theta|y): -1989.29
+theta2
+1.57538
+dev1 -1991.56
+y(d,j)
+1.57538
+dev2 -1989.28
+Iteration 6, p(theta|y): -1989.28
+theta2
+1.57538
+dev1 -1991.56
+y(d,j)
+1.57538
+dev2 -1989.28
+Iteration 7, p(theta|y): -1989.28
+devold -366.132
+y(d,j)
+3.21888
+devold -1.10144e+019
+theta2
+2.46454
+dev1 -3688.78
+y(d,j)
+2.46454
+dev2 -3635.75
+Iteration 1, p(theta|y): -3635.75
+theta2
+1.88786
+dev1 -2338.56
+y(d,j)
+1.88786
+dev2 -2326.14
+Iteration 2, p(theta|y): -2326.14
+theta2
+1.63807
+dev1 -2047.4
+y(d,j)
+1.63807
+dev2 -2093.11
+Iteration 3, p(theta|y): -2093.11
+theta2
+1.58102
+dev1 -1996.65
+y(d,j)
+1.58102
+dev2 -2072.65
+Iteration 4, p(theta|y): -2072.65
+theta2
+1.57572
+dev1 -1991.43
+y(d,j)
+1.57572
+dev2 -2072.14
+Iteration 5, p(theta|y): -2072.14
+theta2
+1.57561
+dev1 -1991.31
+y(d,j)
+1.57561
+dev2 -2072.14
+Iteration 6, p(theta|y): -2072.14
+theta2
+1.57561
+dev1 -1991.31
+y(d,j)
+1.57561
+dev2 -2072.14
+Iteration 7, p(theta|y): -2072.14
+devold -366.132
+y(d,j)
+3.21888
+devold -1.28065e+020
+theta2
+2.46423
+dev1 -3689.34
+y(d,j)
+2.46423
+dev2 -3634.85
+Iteration 1, p(theta|y): -3634.85
+theta2
+1.88775
+dev1 -2338.86
+y(d,j)
+1.88775
+dev2 -2324.95
+Iteration 2, p(theta|y): -2324.95
+theta2
+1.63809
+dev1 -2047.64
+y(d,j)
+1.63809
+dev2 -2091.84
+Iteration 3, p(theta|y): -2091.84
+theta2
+1.58107
+dev1 -1996.87
+y(d,j)
+1.58107
+dev2 -2071.37
+Iteration 4, p(theta|y): -2071.37
+theta2
+1.57576
+dev1 -1991.65
+y(d,j)
+1.57576
+dev2 -2070.86
+Iteration 5, p(theta|y): -2070.86
+theta2
+1.57566
+dev1 -1991.53
+y(d,j)
+1.57566
+dev2 -2070.86
+Iteration 6, p(theta|y): -2070.86
+theta2
+1.57566
+dev1 -1991.53
+y(d,j)
+1.57566
+dev2 -2070.86
+Iteration 7, p(theta|y): -2070.86
+devold -366.132
+y(d,j)
+3.21888
+devold -1.33258e+019
+theta2
+2.46448
+dev1 -3689.1
+y(d,j)
+2.46448
+dev2 -3633.82
+Iteration 1, p(theta|y): -3633.82
+theta2
+1.88794
+dev1 -2338.76
+y(d,j)
+1.88794
+dev2 -2324.07
+Iteration 2, p(theta|y): -2324.07
+theta2
+1.63828
+dev1 -2047.6
+y(d,j)
+1.63828
+dev2 -2091.01
+Iteration 3, p(theta|y): -2091.01
+theta2
+1.5813
+dev1 -1996.86
+y(d,j)
+1.5813
+dev2 -2070.55
+Iteration 4, p(theta|y): -2070.55
+theta2
+1.57601
+dev1 -1991.65
+y(d,j)
+1.57601
+dev2 -2070.04
+Iteration 5, p(theta|y): -2070.04
+theta2
+1.5759
+dev1 -1991.52
+y(d,j)
+1.5759
+dev2 -2070.04
+Iteration 6, p(theta|y): -2070.04
+theta2
+1.5759
+dev1 -1991.52
+y(d,j)
+1.5759
+dev2 -2070.04
+Iteration 7, p(theta|y): -2070.04
+devold -366.132
+y(d,j)
+3.21888
+devold -1.33258e+019
+theta2
+2.46429
+dev1 -3689.02
+y(d,j)
+2.46429
+dev2 -3633.75
+Iteration 1, p(theta|y): -3633.75
+theta2
+1.88767
+dev1 -2338.65
+y(d,j)
+1.88767
+dev2 -2323.99
+Iteration 2, p(theta|y): -2323.99
+theta2
+1.63789
+dev1 -2047.43
+y(d,j)
+1.63789
+dev2 -2090.91
+Iteration 3, p(theta|y): -2090.91
+theta2
+1.58079
+dev1 -1996.66
+y(d,j)
+1.58079
+dev2 -2070.44
+Iteration 4, p(theta|y): -2070.44
+theta2
+1.57547
+dev1 -1991.43
+y(d,j)
+1.57547
+dev2 -2069.93
+Iteration 5, p(theta|y): -2069.93
+theta2
+1.57537
+dev1 -1991.31
+y(d,j)
+1.57537
+dev2 -2069.93
+Iteration 6, p(theta|y): -2069.93
+theta2
+1.57537
+dev1 -1991.31
+y(d,j)
+1.57537
+dev2 -2069.93
+Iteration 7, p(theta|y): -2069.93
+devold -366.132
+y(d,j)
+3.21888
+devold -5.64019e+018
+theta2
+2.46435
+dev1 -3689.07
+y(d,j)
+2.46435
+dev2 -3634.71
+Iteration 1, p(theta|y): -3634.71
+theta2
+1.88779
+dev1 -2338.71
+y(d,j)
+1.88779
+dev2 -2324.96
+Iteration 2, p(theta|y): -2324.96
+theta2
+1.63809
+dev1 -2047.53
+y(d,j)
+1.63809
+dev2 -2091.9
+Iteration 3, p(theta|y): -2091.9
+theta2
+1.58105
+dev1 -1996.77
+y(d,j)
+1.58105
+dev2 -2071.44
+Iteration 4, p(theta|y): -2071.44
+theta2
+1.57575
+dev1 -1991.55
+y(d,j)
+1.57575
+dev2 -2070.93
+Iteration 5, p(theta|y): -2070.93
+theta2
+1.57565
+dev1 -1991.43
+y(d,j)
+1.57565
+dev2 -2070.93
+Iteration 6, p(theta|y): -2070.93
+theta2
+1.57565
+dev1 -1991.43
+y(d,j)
+1.57565
+dev2 -2070.93
+Iteration 7, p(theta|y): -2070.93
+devold -366.132
+y(d,j)
+3.21888
+devold -5.64019e+018
+theta2
+2.46442
+dev1 -3689.06
+y(d,j)
+2.46442
+dev2 -3634.71
+Iteration 1, p(theta|y): -3634.71
+theta2
+1.88781
+dev1 -2338.7
+y(d,j)
+1.88781
+dev2 -2324.95
+Iteration 2, p(theta|y): -2324.95
+theta2
+1.63807
+dev1 -2047.51
+y(d,j)
+1.63807
+dev2 -2091.87
+Iteration 3, p(theta|y): -2091.87
+theta2
+1.58103
+dev1 -1996.75
+y(d,j)
+1.58103
+dev2 -2071.41
+Iteration 4, p(theta|y): -2071.41
+theta2
+1.57572
+dev1 -1991.53
+y(d,j)
+1.57572
+dev2 -2070.9
+Iteration 5, p(theta|y): -2070.9
+theta2
+1.57562
+dev1 -1991.4
+y(d,j)
+1.57562
+dev2 -2070.89
+Iteration 6, p(theta|y): -2070.89
+theta2
+1.57562
+dev1 -1991.4
+y(d,j)
+1.57562
+dev2 -2070.89
+Iteration 7, p(theta|y): -2070.89
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46445
+dev1 -3689.25
+y(d,j)
+2.46445
+dev2 -3634.16
+Iteration 1, p(theta|y): -3634.16
+theta2
+1.88792
+dev1 -2338.8
+y(d,j)
+1.88792
+dev2 -2324.29
+Iteration 2, p(theta|y): -2324.29
+theta2
+1.63826
+dev1 -2047.59
+y(d,j)
+1.63826
+dev2 -2091.18
+Iteration 3, p(theta|y): -2091.18
+theta2
+1.58125
+dev1 -1996.83
+y(d,j)
+1.58125
+dev2 -2070.71
+Iteration 4, p(theta|y): -2070.71
+theta2
+1.57595
+dev1 -1991.61
+y(d,j)
+1.57595
+dev2 -2070.2
+Iteration 5, p(theta|y): -2070.2
+theta2
+1.57584
+dev1 -1991.49
+y(d,j)
+1.57584
+dev2 -2070.2
+Iteration 6, p(theta|y): -2070.2
+theta2
+1.57584
+dev1 -1991.49
+y(d,j)
+1.57584
+dev2 -2070.2
+Iteration 7, p(theta|y): -2070.2
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46433
+dev1 -3688.87
+y(d,j)
+2.46433
+dev2 -3633.77
+Iteration 1, p(theta|y): -3633.77
+theta2
+1.88769
+dev1 -2338.62
+y(d,j)
+1.88769
+dev2 -2324.12
+Iteration 2, p(theta|y): -2324.12
+theta2
+1.6379
+dev1 -2047.45
+y(d,j)
+1.6379
+dev2 -2091.09
+Iteration 3, p(theta|y): -2091.09
+theta2
+1.58084
+dev1 -1996.69
+y(d,j)
+1.58084
+dev2 -2070.63
+Iteration 4, p(theta|y): -2070.63
+theta2
+1.57553
+dev1 -1991.47
+y(d,j)
+1.57553
+dev2 -2070.13
+Iteration 5, p(theta|y): -2070.13
+theta2
+1.57543
+dev1 -1991.35
+y(d,j)
+1.57543
+dev2 -2070.12
+Iteration 6, p(theta|y): -2070.12
+theta2
+1.57543
+dev1 -1991.35
+y(d,j)
+1.57543
+dev2 -2070.12
+Iteration 7, p(theta|y): -2070.12
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46449
+dev1 -3689.2
+y(d,j)
+2.46449
+dev2 -3634.09
+Iteration 1, p(theta|y): -3634.09
+theta2
+1.88801
+dev1 -2338.91
+y(d,j)
+1.88801
+dev2 -2324.37
+Iteration 2, p(theta|y): -2324.37
+theta2
+1.63831
+dev1 -2047.76
+y(d,j)
+1.63831
+dev2 -2091.32
+Iteration 3, p(theta|y): -2091.32
+theta2
+1.58127
+dev1 -1997.02
+y(d,j)
+1.58127
+dev2 -2070.86
+Iteration 4, p(theta|y): -2070.86
+theta2
+1.57597
+dev1 -1991.8
+y(d,j)
+1.57597
+dev2 -2070.35
+Iteration 5, p(theta|y): -2070.35
+theta2
+1.57586
+dev1 -1991.67
+y(d,j)
+1.57586
+dev2 -2070.35
+Iteration 6, p(theta|y): -2070.35
+theta2
+1.57586
+dev1 -1991.67
+y(d,j)
+1.57586
+dev2 -2070.35
+Iteration 7, p(theta|y): -2070.35
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46429
+dev1 -3688.92
+y(d,j)
+2.46429
+dev2 -3633.83
+Iteration 1, p(theta|y): -3633.83
+theta2
+1.88759
+dev1 -2338.51
+y(d,j)
+1.88759
+dev2 -2324.04
+Iteration 2, p(theta|y): -2324.04
+theta2
+1.63785
+dev1 -2047.27
+y(d,j)
+1.63785
+dev2 -2090.95
+Iteration 3, p(theta|y): -2090.95
+theta2
+1.58081
+dev1 -1996.51
+y(d,j)
+1.58081
+dev2 -2070.48
+Iteration 4, p(theta|y): -2070.48
+theta2
+1.57551
+dev1 -1991.29
+y(d,j)
+1.57551
+dev2 -2069.97
+Iteration 5, p(theta|y): -2069.97
+theta2
+1.57541
+dev1 -1991.16
+y(d,j)
+1.57541
+dev2 -2069.97
+Iteration 6, p(theta|y): -2069.97
+theta2
+1.57541
+dev1 -1991.16
+y(d,j)
+1.57541
+dev2 -2069.97
+Iteration 7, p(theta|y): -2069.97
+devold -366.132
+y(d,j)
+3.21888
+devold -2.14915e+020
+theta2
+2.46432
+dev1 -3689.08
+y(d,j)
+2.46432
+dev2 -3391.46
+Iteration 1, p(theta|y): -3391.46
+theta2
+1.88768
+dev1 -2338.72
+y(d,j)
+1.88768
+dev2 -2081.71
+Iteration 2, p(theta|y): -2081.71
+theta2
+1.63801
+dev1 -2047.53
+y(d,j)
+1.63801
+dev2 -1848.65
+Iteration 3, p(theta|y): -1848.65
+theta2
+1.58101
+dev1 -1996.77
+y(d,j)
+1.58101
+dev2 -1828.18
+Iteration 4, p(theta|y): -1828.18
+theta2
+1.57571
+dev1 -1991.55
+y(d,j)
+1.57571
+dev2 -1827.67
+Iteration 5, p(theta|y): -1827.67
+theta2
+1.57561
+dev1 -1991.43
+y(d,j)
+1.57561
+dev2 -1827.67
+Iteration 6, p(theta|y): -1827.67
+theta2
+1.57561
+dev1 -1991.43
+y(d,j)
+1.57561
+dev2 -1827.67
+Iteration 7, p(theta|y): -1827.67
+devold -366.132
+y(d,j)
+3.21888
+devold -7.00328e+018
+theta2
+2.46445
+dev1 -3689.05
+y(d,j)
+2.46445
+dev2 -3616.45
+Iteration 1, p(theta|y): -3616.45
+theta2
+1.88792
+dev1 -2338.69
+y(d,j)
+1.88792
+dev2 -2306.68
+Iteration 2, p(theta|y): -2306.68
+theta2
+1.63815
+dev1 -2047.5
+y(d,j)
+1.63815
+dev2 -2073.61
+Iteration 3, p(theta|y): -2073.61
+theta2
+1.58108
+dev1 -1996.75
+y(d,j)
+1.58108
+dev2 -2053.15
+Iteration 4, p(theta|y): -2053.15
+theta2
+1.57577
+dev1 -1991.53
+y(d,j)
+1.57577
+dev2 -2052.64
+Iteration 5, p(theta|y): -2052.64
+theta2
+1.57566
+dev1 -1991.41
+y(d,j)
+1.57566
+dev2 -2052.64
+Iteration 6, p(theta|y): -2052.64
+theta2
+1.57566
+dev1 -1991.41
+y(d,j)
+1.57566
+dev2 -2052.64
+Iteration 7, p(theta|y): -2052.64
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46384
+dev1 -3688.53
+y(d,j)
+2.46384
+dev2 -3633.4
+Iteration 1, p(theta|y): -3633.4
+theta2
+1.88718
+dev1 -2338.28
+y(d,j)
+1.88718
+dev2 -2323.76
+Iteration 2, p(theta|y): -2323.76
+theta2
+1.63741
+dev1 -2047.05
+y(d,j)
+1.63741
+dev2 -2090.67
+Iteration 3, p(theta|y): -2090.67
+theta2
+1.58032
+dev1 -1996.27
+y(d,j)
+1.58032
+dev2 -2070.18
+Iteration 4, p(theta|y): -2070.18
+theta2
+1.575
+dev1 -1991.04
+y(d,j)
+1.575
+dev2 -2069.67
+Iteration 5, p(theta|y): -2069.67
+theta2
+1.5749
+dev1 -1990.91
+y(d,j)
+1.5749
+dev2 -2069.67
+Iteration 6, p(theta|y): -2069.67
+theta2
+1.5749
+dev1 -1990.91
+y(d,j)
+1.5749
+dev2 -2069.67
+Iteration 7, p(theta|y): -2069.67
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46494
+dev1 -3689.59
+y(d,j)
+2.46494
+dev2 -3634.52
+Iteration 1, p(theta|y): -3634.52
+theta2
+1.88843
+dev1 -2339.14
+y(d,j)
+1.88843
+dev2 -2324.65
+Iteration 2, p(theta|y): -2324.65
+theta2
+1.63876
+dev1 -2047.99
+y(d,j)
+1.63876
+dev2 -2091.61
+Iteration 3, p(theta|y): -2091.61
+theta2
+1.58177
+dev1 -1997.26
+y(d,j)
+1.58177
+dev2 -2071.16
+Iteration 4, p(theta|y): -2071.16
+theta2
+1.57648
+dev1 -1992.04
+y(d,j)
+1.57648
+dev2 -2070.66
+Iteration 5, p(theta|y): -2070.66
+theta2
+1.57638
+dev1 -1991.92
+y(d,j)
+1.57638
+dev2 -2070.66
+Iteration 6, p(theta|y): -2070.66
+theta2
+1.57638
+dev1 -1991.92
+y(d,j)
+1.57638
+dev2 -2070.66
+Iteration 7, p(theta|y): -2070.66
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46477
+dev1 -3689.89
+y(d,j)
+2.46477
+dev2 -3634.8
+Iteration 1, p(theta|y): -3634.8
+theta2
+1.88817
+dev1 -2339.22
+y(d,j)
+1.88817
+dev2 -2324.69
+Iteration 2, p(theta|y): -2324.69
+theta2
+1.63824
+dev1 -2048.02
+y(d,j)
+1.63824
+dev2 -2091.6
+Iteration 3, p(theta|y): -2091.6
+theta2
+1.58106
+dev1 -1997.26
+y(d,j)
+1.58106
+dev2 -2071.14
+Iteration 4, p(theta|y): -2071.14
+theta2
+1.57573
+dev1 -1992.04
+y(d,j)
+1.57573
+dev2 -2070.63
+Iteration 5, p(theta|y): -2070.63
+theta2
+1.57563
+dev1 -1991.92
+y(d,j)
+1.57563
+dev2 -2070.63
+Iteration 6, p(theta|y): -2070.63
+theta2
+1.57563
+dev1 -1991.92
+y(d,j)
+1.57563
+dev2 -2070.63
+Iteration 7, p(theta|y): -2070.63
+devold -366.132
+y(d,j)
+3.21888
+devold -7.71109e+018
+theta2
+2.46401
+dev1 -3688.23
+y(d,j)
+2.46401
+dev2 -3573.82
+Iteration 1, p(theta|y): -3573.82
+theta2
+1.88743
+dev1 -2338.19
+y(d,j)
+1.88743
+dev2 -2264.42
+Iteration 2, p(theta|y): -2264.42
+theta2
+1.63792
+dev1 -2047.01
+y(d,j)
+1.63792
+dev2 -2031.38
+Iteration 3, p(theta|y): -2031.38
+theta2
+1.58102
+dev1 -1996.26
+y(d,j)
+1.58102
+dev2 -2010.91
+Iteration 4, p(theta|y): -2010.91
+theta2
+1.57575
+dev1 -1991.04
+y(d,j)
+1.57575
+dev2 -2010.4
+Iteration 5, p(theta|y): -2010.4
+theta2
+1.57564
+dev1 -1990.92
+y(d,j)
+1.57564
+dev2 -2010.4
+Iteration 6, p(theta|y): -2010.4
+theta2
+1.57564
+dev1 -1990.92
+y(d,j)
+1.57564
+dev2 -2010.4
+Iteration 7, p(theta|y): -2010.4
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46418
+dev1 -3689.55
+y(d,j)
+2.46418
+dev2 -3634.42
+Iteration 1, p(theta|y): -3634.42
+theta2
+1.88746
+dev1 -2339.01
+y(d,j)
+1.88746
+dev2 -2324.49
+Iteration 2, p(theta|y): -2324.49
+theta2
+1.63782
+dev1 -2047.75
+y(d,j)
+1.63782
+dev2 -2091.37
+Iteration 3, p(theta|y): -2091.37
+theta2
+1.58078
+dev1 -1996.96
+y(d,j)
+1.58078
+dev2 -2070.9
+Iteration 4, p(theta|y): -2070.9
+theta2
+1.57546
+dev1 -1991.73
+y(d,j)
+1.57546
+dev2 -2070.39
+Iteration 5, p(theta|y): -2070.39
+theta2
+1.57536
+dev1 -1991.61
+y(d,j)
+1.57536
+dev2 -2070.39
+Iteration 6, p(theta|y): -2070.39
+theta2
+1.57536
+dev1 -1991.61
+y(d,j)
+1.57536
+dev2 -2070.39
+Iteration 7, p(theta|y): -2070.39
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.4646
+dev1 -3688.58
+y(d,j)
+2.4646
+dev2 -3633.5
+Iteration 1, p(theta|y): -3633.5
+theta2
+1.88814
+dev1 -2338.41
+y(d,j)
+1.88814
+dev2 -2323.92
+Iteration 2, p(theta|y): -2323.92
+theta2
+1.63835
+dev1 -2047.29
+y(d,j)
+1.63835
+dev2 -2090.9
+Iteration 3, p(theta|y): -2090.9
+theta2
+1.58131
+dev1 -1996.56
+y(d,j)
+1.58131
+dev2 -2070.45
+Iteration 4, p(theta|y): -2070.45
+theta2
+1.57602
+dev1 -1991.35
+y(d,j)
+1.57602
+dev2 -2069.94
+Iteration 5, p(theta|y): -2069.94
+theta2
+1.57592
+dev1 -1991.23
+y(d,j)
+1.57592
+dev2 -2069.94
+Iteration 6, p(theta|y): -2069.94
+theta2
+1.57592
+dev1 -1991.23
+y(d,j)
+1.57592
+dev2 -2069.94
+Iteration 7, p(theta|y): -2069.94
+devold -366.132
+y(d,j)
+3.21888
+devold -1.67426e+019
+theta2
+2.46367
+dev1 -3687.89
+y(d,j)
+2.46367
+dev2 -3573.03
+Iteration 1, p(theta|y): -3573.03
+theta2
+1.88657
+dev1 -2338.33
+y(d,j)
+1.88657
+dev2 -2264.18
+Iteration 2, p(theta|y): -2264.18
+theta2
+1.63654
+dev1 -2047.37
+y(d,j)
+1.63654
+dev2 -2031.45
+Iteration 3, p(theta|y): -2031.45
+theta2
+1.57941
+dev1 -1996.65
+y(d,j)
+1.57941
+dev2 -2011.04
+Iteration 4, p(theta|y): -2011.04
+theta2
+1.57412
+dev1 -1991.44
+y(d,j)
+1.57412
+dev2 -2010.54
+Iteration 5, p(theta|y): -2010.54
+theta2
+1.57402
+dev1 -1991.32
+y(d,j)
+1.57402
+dev2 -2010.54
+Iteration 6, p(theta|y): -2010.54
+theta2
+1.57402
+dev1 -1991.32
+y(d,j)
+1.57402
+dev2 -2010.54
+Iteration 7, p(theta|y): -2010.54
+devold -366.132
+y(d,j)
+3.21888
+devold -1.67426e+019
+theta2
+2.46511
+dev1 -3690.24
+y(d,j)
+2.46511
+dev2 -3575.41
+Iteration 1, p(theta|y): -3575.41
+theta2
+1.88903
+dev1 -2339.08
+y(d,j)
+1.88903
+dev2 -2264.74
+Iteration 2, p(theta|y): -2264.74
+theta2
+1.63962
+dev1 -2047.66
+y(d,j)
+1.63962
+dev2 -2031.34
+Iteration 3, p(theta|y): -2031.34
+theta2
+1.58267
+dev1 -1996.87
+y(d,j)
+1.58267
+dev2 -2010.81
+Iteration 4, p(theta|y): -2010.81
+theta2
+1.57736
+dev1 -1991.64
+y(d,j)
+1.57736
+dev2 -2010.3
+Iteration 5, p(theta|y): -2010.3
+theta2
+1.57725
+dev1 -1991.51
+y(d,j)
+1.57725
+dev2 -2010.3
+Iteration 6, p(theta|y): -2010.3
+theta2
+1.57725
+dev1 -1991.51
+y(d,j)
+1.57725
+dev2 -2010.3
+Iteration 7, p(theta|y): -2010.3
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46442
+dev1 -3689.02
+y(d,j)
+2.46442
+dev2 -3633.92
+Iteration 1, p(theta|y): -3633.92
+theta2
+1.88783
+dev1 -2338.69
+y(d,j)
+1.88783
+dev2 -2324.21
+Iteration 2, p(theta|y): -2324.21
+theta2
+1.6381
+dev1 -2047.51
+y(d,j)
+1.6381
+dev2 -2091.16
+Iteration 3, p(theta|y): -2091.16
+theta2
+1.58106
+dev1 -1996.76
+y(d,j)
+1.58106
+dev2 -2070.7
+Iteration 4, p(theta|y): -2070.7
+theta2
+1.57576
+dev1 -1991.54
+y(d,j)
+1.57576
+dev2 -2070.2
+Iteration 5, p(theta|y): -2070.2
+theta2
+1.57565
+dev1 -1991.42
+y(d,j)
+1.57565
+dev2 -2070.19
+Iteration 6, p(theta|y): -2070.19
+theta2
+1.57565
+dev1 -1991.42
+y(d,j)
+1.57565
+dev2 -2070.19
+Iteration 7, p(theta|y): -2070.19
+devold -366.132
+y(d,j)
+3.21888
+devold -3.60412e+020
+theta2
+2.46435
+dev1 -3689.11
+y(d,j)
+2.46435
+dev2 -3573.13
+Iteration 1, p(theta|y): -3573.13
+theta2
+1.88778
+dev1 -2338.72
+y(d,j)
+1.88778
+dev2 -2263.33
+Iteration 2, p(theta|y): -2263.33
+theta2
+1.63807
+dev1 -2047.52
+y(d,j)
+1.63807
+dev2 -2030.23
+Iteration 3, p(theta|y): -2030.23
+theta2
+1.58103
+dev1 -1996.77
+y(d,j)
+1.58103
+dev2 -2009.76
+Iteration 4, p(theta|y): -2009.76
+theta2
+1.57572
+dev1 -1991.54
+y(d,j)
+1.57572
+dev2 -2009.25
+Iteration 5, p(theta|y): -2009.25
+theta2
+1.57562
+dev1 -1991.42
+y(d,j)
+1.57562
+dev2 -2009.25
+Iteration 6, p(theta|y): -2009.25
+theta2
+1.57562
+dev1 -1991.42
+y(d,j)
+1.57562
+dev2 -2009.25
+Iteration 7, p(theta|y): -2009.25
+devold -366.132
+y(d,j)
+3.21888
+devold -5.02379e+019
+theta2
+2.46437
+dev1 -3689.11
+y(d,j)
+2.46437
+dev2 -3574.69
+Iteration 1, p(theta|y): -3574.69
+theta2
+1.88771
+dev1 -2338.79
+y(d,j)
+1.88771
+dev2 -2264.95
+Iteration 2, p(theta|y): -2264.95
+theta2
+1.63799
+dev1 -2047.61
+y(d,j)
+1.63799
+dev2 -2031.87
+Iteration 3, p(theta|y): -2031.87
+theta2
+1.58097
+dev1 -1996.85
+y(d,j)
+1.58097
+dev2 -2011.4
+Iteration 4, p(theta|y): -2011.4
+theta2
+1.57567
+dev1 -1991.63
+y(d,j)
+1.57567
+dev2 -2010.89
+Iteration 5, p(theta|y): -2010.89
+theta2
+1.57557
+dev1 -1991.51
+y(d,j)
+1.57557
+dev2 -2010.89
+Iteration 6, p(theta|y): -2010.89
+theta2
+1.57557
+dev1 -1991.51
+y(d,j)
+1.57557
+dev2 -2010.89
+Iteration 7, p(theta|y): -2010.89
+devold -366.132
+y(d,j)
+3.21888
+devold -5.26478e+019
+theta2
+2.46441
+dev1 -3689.01
+y(d,j)
+2.46441
+dev2 -3516.4
+Iteration 1, p(theta|y): -3516.4
+theta2
+1.8879
+dev1 -2338.63
+y(d,j)
+1.8879
+dev2 -2206.62
+Iteration 2, p(theta|y): -2206.62
+theta2
+1.63817
+dev1 -2047.43
+y(d,j)
+1.63817
+dev2 -1973.57
+Iteration 3, p(theta|y): -1973.57
+theta2
+1.58111
+dev1 -1996.67
+y(d,j)
+1.58111
+dev2 -1953.11
+Iteration 4, p(theta|y): -1953.11
+theta2
+1.57581
+dev1 -1991.45
+y(d,j)
+1.57581
+dev2 -1952.6
+Iteration 5, p(theta|y): -1952.6
+theta2
+1.5757
+dev1 -1991.33
+y(d,j)
+1.5757
+dev2 -1952.6
+Iteration 6, p(theta|y): -1952.6
+theta2
+1.5757
+dev1 -1991.33
+y(d,j)
+1.5757
+dev2 -1952.6
+Iteration 7, p(theta|y): -1952.6
+devold -366.132
+y(d,j)
+3.21888
+devold -4.91788e+018
+theta2
+2.46433
+dev1 -3689.49
+y(d,j)
+2.46433
+dev2 -3575.82
+Iteration 1, p(theta|y): -3575.82
+theta2
+1.88763
+dev1 -2339.09
+y(d,j)
+1.88763
+dev2 -2266
+Iteration 2, p(theta|y): -2266
+theta2
+1.6378
+dev1 -2047.96
+y(d,j)
+1.6378
+dev2 -2032.96
+Iteration 3, p(theta|y): -2032.96
+theta2
+1.58074
+dev1 -1997.25
+y(d,j)
+1.58074
+dev2 -2012.51
+Iteration 4, p(theta|y): -2012.51
+theta2
+1.57544
+dev1 -1992.03
+y(d,j)
+1.57544
+dev2 -2012.01
+Iteration 5, p(theta|y): -2012.01
+theta2
+1.57534
+dev1 -1991.91
+y(d,j)
+1.57534
+dev2 -2012.01
+Iteration 6, p(theta|y): -2012.01
+theta2
+1.57534
+dev1 -1991.91
+y(d,j)
+1.57534
+dev2 -2012.01
+Iteration 7, p(theta|y): -2012.01
+devold -366.132
+y(d,j)
+3.21888
+devold -1.33258e+019
+theta2
+2.46445
+dev1 -3688.64
+y(d,j)
+2.46445
+dev2 -3633.37
+Iteration 1, p(theta|y): -3633.37
+theta2
+1.88798
+dev1 -2338.32
+y(d,j)
+1.88798
+dev2 -2323.68
+Iteration 2, p(theta|y): -2323.68
+theta2
+1.63836
+dev1 -2047.07
+y(d,j)
+1.63836
+dev2 -2090.58
+Iteration 3, p(theta|y): -2090.58
+theta2
+1.58134
+dev1 -1996.28
+y(d,j)
+1.58134
+dev2 -2070.1
+Iteration 4, p(theta|y): -2070.1
+theta2
+1.57604
+dev1 -1991.05
+y(d,j)
+1.57604
+dev2 -2069.59
+Iteration 5, p(theta|y): -2069.59
+theta2
+1.57593
+dev1 -1990.93
+y(d,j)
+1.57593
+dev2 -2069.59
+Iteration 6, p(theta|y): -2069.59
+theta2
+1.57593
+dev1 -1990.93
+y(d,j)
+1.57593
+dev2 -2069.59
+Iteration 7, p(theta|y): -2069.59
+devold -366.132
+y(d,j)
+3.21888
+devold -5.64019e+018
+theta2
+2.46439
+dev1 -3688.86
+y(d,j)
+2.46439
+dev2 -3634.52
+Iteration 1, p(theta|y): -3634.52
+theta2
+1.88778
+dev1 -2338.6
+y(d,j)
+1.88778
+dev2 -2324.86
+Iteration 2, p(theta|y): -2324.86
+theta2
+1.63804
+dev1 -2047.43
+y(d,j)
+1.63804
+dev2 -2091.81
+Iteration 3, p(theta|y): -2091.81
+theta2
+1.581
+dev1 -1996.68
+y(d,j)
+1.581
+dev2 -2071.35
+Iteration 4, p(theta|y): -2071.35
+theta2
+1.5757
+dev1 -1991.46
+y(d,j)
+1.5757
+dev2 -2070.84
+Iteration 5, p(theta|y): -2070.84
+theta2
+1.57559
+dev1 -1991.34
+y(d,j)
+1.57559
+dev2 -2070.84
+Iteration 6, p(theta|y): -2070.84
+theta2
+1.57559
+dev1 -1991.34
+y(d,j)
+1.57559
+dev2 -2070.84
+Iteration 7, p(theta|y): -2070.84
+devold -366.132
+y(d,j)
+3.21888
+devold -5.64019e+018
+theta2
+2.46439
+dev1 -3689.26
+y(d,j)
+2.46439
+dev2 -3634.91
+Iteration 1, p(theta|y): -3634.91
+theta2
+1.88782
+dev1 -2338.81
+y(d,j)
+1.88782
+dev2 -2325.05
+Iteration 2, p(theta|y): -2325.05
+theta2
+1.63812
+dev1 -2047.6
+y(d,j)
+1.63812
+dev2 -2091.96
+Iteration 3, p(theta|y): -2091.96
+theta2
+1.58108
+dev1 -1996.84
+y(d,j)
+1.58108
+dev2 -2071.49
+Iteration 4, p(theta|y): -2071.49
+theta2
+1.57578
+dev1 -1991.62
+y(d,j)
+1.57578
+dev2 -2070.99
+Iteration 5, p(theta|y): -2070.99
+theta2
+1.57568
+dev1 -1991.5
+y(d,j)
+1.57568
+dev2 -2070.98
+Iteration 6, p(theta|y): -2070.98
+theta2
+1.57568
+dev1 -1991.5
+y(d,j)
+1.57568
+dev2 -2070.98
+Iteration 7, p(theta|y): -2070.98
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46438
+dev1 -3689.48
+y(d,j)
+2.46438
+dev2 -3634.39
+Iteration 1, p(theta|y): -3634.39
+theta2
+1.88777
+dev1 -2339.01
+y(d,j)
+1.88777
+dev2 -2324.49
+Iteration 2, p(theta|y): -2324.49
+theta2
+1.63808
+dev1 -2047.8
+y(d,j)
+1.63808
+dev2 -2091.37
+Iteration 3, p(theta|y): -2091.37
+theta2
+1.58106
+dev1 -1997.05
+y(d,j)
+1.58106
+dev2 -2070.89
+Iteration 4, p(theta|y): -2070.89
+theta2
+1.57575
+dev1 -1991.82
+y(d,j)
+1.57575
+dev2 -2070.38
+Iteration 5, p(theta|y): -2070.38
+theta2
+1.57565
+dev1 -1991.7
+y(d,j)
+1.57565
+dev2 -2070.37
+Iteration 6, p(theta|y): -2070.37
+theta2
+1.57565
+dev1 -1991.7
+y(d,j)
+1.57565
+dev2 -2070.37
+Iteration 7, p(theta|y): -2070.37
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.4644
+dev1 -3688.64
+y(d,j)
+2.4644
+dev2 -3633.53
+Iteration 1, p(theta|y): -3633.53
+theta2
+1.88783
+dev1 -2338.4
+y(d,j)
+1.88783
+dev2 -2323.92
+Iteration 2, p(theta|y): -2323.92
+theta2
+1.63809
+dev1 -2047.23
+y(d,j)
+1.63809
+dev2 -2090.91
+Iteration 3, p(theta|y): -2090.91
+theta2
+1.58103
+dev1 -1996.48
+y(d,j)
+1.58103
+dev2 -2070.46
+Iteration 4, p(theta|y): -2070.46
+theta2
+1.57573
+dev1 -1991.26
+y(d,j)
+1.57573
+dev2 -2069.95
+Iteration 5, p(theta|y): -2069.95
+theta2
+1.57562
+dev1 -1991.13
+y(d,j)
+1.57562
+dev2 -2069.95
+Iteration 6, p(theta|y): -2069.95
+theta2
+1.57562
+dev1 -1991.13
+y(d,j)
+1.57562
+dev2 -2069.95
+Iteration 7, p(theta|y): -2069.95
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46444
+dev1 -3688.68
+y(d,j)
+2.46444
+dev2 -3633.59
+Iteration 1, p(theta|y): -3633.59
+theta2
+1.888
+dev1 -2338.52
+y(d,j)
+1.888
+dev2 -2324.01
+Iteration 2, p(theta|y): -2324.01
+theta2
+1.63835
+dev1 -2047.35
+y(d,j)
+1.63835
+dev2 -2090.96
+Iteration 3, p(theta|y): -2090.96
+theta2
+1.58134
+dev1 -1996.59
+y(d,j)
+1.58134
+dev2 -2070.5
+Iteration 4, p(theta|y): -2070.5
+theta2
+1.57603
+dev1 -1991.37
+y(d,j)
+1.57603
+dev2 -2069.99
+Iteration 5, p(theta|y): -2069.99
+theta2
+1.57593
+dev1 -1991.25
+y(d,j)
+1.57593
+dev2 -2069.99
+Iteration 6, p(theta|y): -2069.99
+theta2
+1.57593
+dev1 -1991.25
+y(d,j)
+1.57593
+dev2 -2069.99
+Iteration 7, p(theta|y): -2069.99
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46434
+dev1 -3689.44
+y(d,j)
+2.46434
+dev2 -3634.34
+Iteration 1, p(theta|y): -3634.34
+theta2
+1.88761
+dev1 -2338.9
+y(d,j)
+1.88761
+dev2 -2324.4
+Iteration 2, p(theta|y): -2324.4
+theta2
+1.63781
+dev1 -2047.69
+y(d,j)
+1.63781
+dev2 -2091.31
+Iteration 3, p(theta|y): -2091.31
+theta2
+1.58075
+dev1 -1996.93
+y(d,j)
+1.58075
+dev2 -2070.85
+Iteration 4, p(theta|y): -2070.85
+theta2
+1.57544
+dev1 -1991.71
+y(d,j)
+1.57544
+dev2 -2070.34
+Iteration 5, p(theta|y): -2070.34
+theta2
+1.57534
+dev1 -1991.59
+y(d,j)
+1.57534
+dev2 -2070.34
+Iteration 6, p(theta|y): -2070.34
+theta2
+1.57534
+dev1 -1991.59
+y(d,j)
+1.57534
+dev2 -2070.34
+Iteration 7, p(theta|y): -2070.34
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46443
+dev1 -3688.5
+y(d,j)
+2.46443
+dev2 -3633.41
+Iteration 1, p(theta|y): -3633.41
+theta2
+1.8878
+dev1 -2338.49
+y(d,j)
+1.8878
+dev2 -2324.02
+Iteration 2, p(theta|y): -2324.02
+theta2
+1.63806
+dev1 -2047.42
+y(d,j)
+1.63806
+dev2 -2091.07
+Iteration 3, p(theta|y): -2091.07
+theta2
+1.58103
+dev1 -1996.7
+y(d,j)
+1.58103
+dev2 -2070.63
+Iteration 4, p(theta|y): -2070.63
+theta2
+1.57573
+dev1 -1991.48
+y(d,j)
+1.57573
+dev2 -2070.12
+Iteration 5, p(theta|y): -2070.12
+theta2
+1.57563
+dev1 -1991.36
+y(d,j)
+1.57563
+dev2 -2070.12
+Iteration 6, p(theta|y): -2070.12
+theta2
+1.57563
+dev1 -1991.36
+y(d,j)
+1.57563
+dev2 -2070.12
+Iteration 7, p(theta|y): -2070.12
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46435
+dev1 -3689.63
+y(d,j)
+2.46435
+dev2 -3634.51
+Iteration 1, p(theta|y): -3634.51
+theta2
+1.8878
+dev1 -2338.92
+y(d,j)
+1.8878
+dev2 -2324.39
+Iteration 2, p(theta|y): -2324.39
+theta2
+1.6381
+dev1 -2047.61
+y(d,j)
+1.6381
+dev2 -2091.2
+Iteration 3, p(theta|y): -2091.2
+theta2
+1.58105
+dev1 -1996.83
+y(d,j)
+1.58105
+dev2 -2070.72
+Iteration 4, p(theta|y): -2070.72
+theta2
+1.57574
+dev1 -1991.6
+y(d,j)
+1.57574
+dev2 -2070.21
+Iteration 5, p(theta|y): -2070.21
+theta2
+1.57564
+dev1 -1991.48
+y(d,j)
+1.57564
+dev2 -2070.2
+Iteration 6, p(theta|y): -2070.2
+theta2
+1.57564
+dev1 -1991.48
+y(d,j)
+1.57564
+dev2 -2070.2
+Iteration 7, p(theta|y): -2070.2
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46443
+dev1 -3688.89
+y(d,j)
+2.46443
+dev2 -3633.76
+Iteration 1, p(theta|y): -3633.76
+theta2
+1.88811
+dev1 -2338.81
+y(d,j)
+1.88811
+dev2 -2324.24
+Iteration 2, p(theta|y): -2324.24
+theta2
+1.63854
+dev1 -2047.77
+y(d,j)
+1.63854
+dev2 -2091.26
+Iteration 3, p(theta|y): -2091.26
+theta2
+1.58148
+dev1 -1997.05
+y(d,j)
+1.58148
+dev2 -2070.81
+Iteration 4, p(theta|y): -2070.81
+theta2
+1.57615
+dev1 -1991.83
+y(d,j)
+1.57615
+dev2 -2070.3
+Iteration 5, p(theta|y): -2070.3
+theta2
+1.57605
+dev1 -1991.7
+y(d,j)
+1.57605
+dev2 -2070.3
+Iteration 6, p(theta|y): -2070.3
+theta2
+1.57605
+dev1 -1991.7
+y(d,j)
+1.57605
+dev2 -2070.3
+Iteration 7, p(theta|y): -2070.3
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46434
+dev1 -3689.24
+y(d,j)
+2.46434
+dev2 -3634.17
+Iteration 1, p(theta|y): -3634.17
+theta2
+1.88749
+dev1 -2338.6
+y(d,j)
+1.88749
+dev2 -2324.17
+Iteration 2, p(theta|y): -2324.17
+theta2
+1.63763
+dev1 -2047.26
+y(d,j)
+1.63763
+dev2 -2091.01
+Iteration 3, p(theta|y): -2091.01
+theta2
+1.58061
+dev1 -1996.48
+y(d,j)
+1.58061
+dev2 -2070.54
+Iteration 4, p(theta|y): -2070.54
+theta2
+1.57532
+dev1 -1991.25
+y(d,j)
+1.57532
+dev2 -2070.03
+Iteration 5, p(theta|y): -2070.03
+theta2
+1.57522
+dev1 -1991.13
+y(d,j)
+1.57522
+dev2 -2070.03
+Iteration 6, p(theta|y): -2070.03
+theta2
+1.57522
+dev1 -1991.13
+y(d,j)
+1.57522
+dev2 -2070.03
+Iteration 7, p(theta|y): -2070.03
+devold -366.132
+y(d,j)
+3.21888
+devold -3.26587e+018
+theta2
+2.46447
+dev1 -3686.57
+y(d,j)
+2.46447
+dev2 -3521.16
+Iteration 1, p(theta|y): -3521.16
+theta2
+1.88794
+dev1 -2337.31
+y(d,j)
+1.88794
+dev2 -2212.52
+Iteration 2, p(theta|y): -2212.52
+theta2
+1.63819
+dev1 -2046.22
+y(d,j)
+1.63819
+dev2 -1979.59
+Iteration 3, p(theta|y): -1979.59
+theta2
+1.58112
+dev1 -1995.42
+y(d,j)
+1.58112
+dev2 -1959.11
+Iteration 4, p(theta|y): -1959.11
+theta2
+1.57581
+dev1 -1990.19
+y(d,j)
+1.57581
+dev2 -1958.6
+Iteration 5, p(theta|y): -1958.6
+theta2
+1.57571
+dev1 -1990.06
+y(d,j)
+1.57571
+dev2 -1958.6
+Iteration 6, p(theta|y): -1958.6
+theta2
+1.57571
+dev1 -1990.06
+y(d,j)
+1.57571
+dev2 -1958.6
+Iteration 7, p(theta|y): -1958.6
+devold -366.132
+y(d,j)
+3.21888
+devold -1.79323e+019
+theta2
+2.46431
+dev1 -3691.56
+y(d,j)
+2.46431
+dev2 -3615.77
+Iteration 1, p(theta|y): -3615.77
+theta2
+1.88767
+dev1 -2340.1
+y(d,j)
+1.88767
+dev2 -2304.89
+Iteration 2, p(theta|y): -2304.89
+theta2
+1.63797
+dev1 -2048.82
+y(d,j)
+1.63797
+dev2 -2071.68
+Iteration 3, p(theta|y): -2071.68
+theta2
+1.58096
+dev1 -1998.11
+y(d,j)
+1.58096
+dev2 -2051.23
+Iteration 4, p(theta|y): -2051.23
+theta2
+1.57567
+dev1 -1992.9
+y(d,j)
+1.57567
+dev2 -2050.72
+Iteration 5, p(theta|y): -2050.72
+theta2
+1.57556
+dev1 -1992.78
+y(d,j)
+1.57556
+dev2 -2050.72
+Iteration 6, p(theta|y): -2050.72
+theta2
+1.57556
+dev1 -1992.78
+y(d,j)
+1.57556
+dev2 -2050.72
+Iteration 7, p(theta|y): -2050.72
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46445
+dev1 -3688.2
+y(d,j)
+2.46445
+dev2 -3633.1
+Iteration 1, p(theta|y): -3633.1
+theta2
+1.88768
+dev1 -2338.26
+y(d,j)
+1.88768
+dev2 -2323.72
+Iteration 2, p(theta|y): -2323.72
+theta2
+1.63787
+dev1 -2047.18
+y(d,j)
+1.63787
+dev2 -2090.71
+Iteration 3, p(theta|y): -2090.71
+theta2
+1.58085
+dev1 -1996.44
+y(d,j)
+1.58085
+dev2 -2070.24
+Iteration 4, p(theta|y): -2070.24
+theta2
+1.57556
+dev1 -1991.21
+y(d,j)
+1.57556
+dev2 -2069.73
+Iteration 5, p(theta|y): -2069.73
+theta2
+1.57545
+dev1 -1991.09
+y(d,j)
+1.57545
+dev2 -2069.73
+Iteration 6, p(theta|y): -2069.73
+theta2
+1.57545
+dev1 -1991.09
+y(d,j)
+1.57545
+dev2 -2069.73
+Iteration 7, p(theta|y): -2069.73
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46432
+dev1 -3689.92
+y(d,j)
+2.46432
+dev2 -3634.83
+Iteration 1, p(theta|y): -3634.83
+theta2
+1.88793
+dev1 -2339.16
+y(d,j)
+1.88793
+dev2 -2324.69
+Iteration 2, p(theta|y): -2324.69
+theta2
+1.6383
+dev1 -2047.85
+y(d,j)
+1.6383
+dev2 -2091.57
+Iteration 3, p(theta|y): -2091.57
+theta2
+1.58123
+dev1 -1997.09
+y(d,j)
+1.58123
+dev2 -2071.11
+Iteration 4, p(theta|y): -2071.11
+theta2
+1.57592
+dev1 -1991.87
+y(d,j)
+1.57592
+dev2 -2070.6
+Iteration 5, p(theta|y): -2070.6
+theta2
+1.57582
+dev1 -1991.75
+y(d,j)
+1.57582
+dev2 -2070.6
+Iteration 6, p(theta|y): -2070.6
+theta2
+1.57582
+dev1 -1991.75
+y(d,j)
+1.57582
+dev2 -2070.6
+Iteration 7, p(theta|y): -2070.6
+devold -366.132
+y(d,j)
+3.21888
+devold -1.67426e+019
+theta2
+2.46435
+dev1 -3685.8
+y(d,j)
+2.46435
+dev2 -3570.99
+Iteration 1, p(theta|y): -3570.99
+theta2
+1.88717
+dev1 -2336.66
+y(d,j)
+1.88717
+dev2 -2262.58
+Iteration 2, p(theta|y): -2262.58
+theta2
+1.63679
+dev1 -2045.68
+y(d,j)
+1.63679
+dev2 -2029.84
+Iteration 3, p(theta|y): -2029.84
+theta2
+1.57946
+dev1 -1994.98
+y(d,j)
+1.57946
+dev2 -2009.44
+Iteration 4, p(theta|y): -2009.44
+theta2
+1.57414
+dev1 -1989.78
+y(d,j)
+1.57414
+dev2 -2008.93
+Iteration 5, p(theta|y): -2008.93
+theta2
+1.57403
+dev1 -1989.65
+y(d,j)
+1.57403
+dev2 -2008.93
+Iteration 6, p(theta|y): -2008.93
+theta2
+1.57403
+dev1 -1989.65
+y(d,j)
+1.57403
+dev2 -2008.93
+Iteration 7, p(theta|y): -2008.93
+devold -366.132
+y(d,j)
+3.21888
+devold -1.67426e+019
+theta2
+2.46442
+dev1 -3692.34
+y(d,j)
+2.46442
+dev2 -3577.47
+Iteration 1, p(theta|y): -3577.47
+theta2
+1.88844
+dev1 -2340.76
+y(d,j)
+1.88844
+dev2 -2266.35
+Iteration 2, p(theta|y): -2266.35
+theta2
+1.63937
+dev1 -2049.36
+y(d,j)
+1.63937
+dev2 -2032.96
+Iteration 3, p(theta|y): -2032.96
+theta2
+1.58262
+dev1 -1998.55
+y(d,j)
+1.58262
+dev2 -2012.43
+Iteration 4, p(theta|y): -2012.43
+theta2
+1.57734
+dev1 -1993.32
+y(d,j)
+1.57734
+dev2 -2011.92
+Iteration 5, p(theta|y): -2011.92
+theta2
+1.57724
+dev1 -1993.19
+y(d,j)
+1.57724
+dev2 -2011.92
+Iteration 6, p(theta|y): -2011.92
+theta2
+1.57724
+dev1 -1993.19
+y(d,j)
+1.57724
+dev2 -2011.92
+Iteration 7, p(theta|y): -2011.92
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46432
+dev1 -3688.75
+y(d,j)
+2.46432
+dev2 -3633.64
+Iteration 1, p(theta|y): -3633.64
+theta2
+1.88761
+dev1 -2338.53
+y(d,j)
+1.88761
+dev2 -2324.04
+Iteration 2, p(theta|y): -2324.04
+theta2
+1.63773
+dev1 -2047.4
+y(d,j)
+1.63773
+dev2 -2091.03
+Iteration 3, p(theta|y): -2091.03
+theta2
+1.58063
+dev1 -1996.66
+y(d,j)
+1.58063
+dev2 -2070.58
+Iteration 4, p(theta|y): -2070.58
+theta2
+1.57533
+dev1 -1991.45
+y(d,j)
+1.57533
+dev2 -2070.07
+Iteration 5, p(theta|y): -2070.07
+theta2
+1.57522
+dev1 -1991.32
+y(d,j)
+1.57522
+dev2 -2070.07
+Iteration 6, p(theta|y): -2070.07
+theta2
+1.57523
+dev1 -1991.32
+y(d,j)
+1.57523
+dev2 -2070.07
+Iteration 7, p(theta|y): -2070.07
+devold -366.132
+y(d,j)
+3.21888
+devold -9.14377e+018
+theta2
+2.46445
+dev1 -3689.38
+y(d,j)
+2.46445
+dev2 -3634.28
+Iteration 1, p(theta|y): -3634.28
+theta2
+1.888
+dev1 -2338.88
+y(d,j)
+1.888
+dev2 -2324.37
+Iteration 2, p(theta|y): -2324.37
+theta2
+1.63843
+dev1 -2047.64
+y(d,j)
+1.63843
+dev2 -2091.25
+Iteration 3, p(theta|y): -2091.25
+theta2
+1.58145
+dev1 -1996.86
+y(d,j)
+1.58145
+dev2 -2070.77
+Iteration 4, p(theta|y): -2070.77
+theta2
+1.57615
+dev1 -1991.64
+y(d,j)
+1.57615
+dev2 -2070.26
+Iteration 5, p(theta|y): -2070.26
+theta2
+1.57605
+dev1 -1991.51
+y(d,j)
+1.57605
+dev2 -2070.26
+Iteration 6, p(theta|y): -2070.26
+theta2
+1.57605
+dev1 -1991.51
+y(d,j)
+1.57605
+dev2 -2070.26
+Iteration 7, p(theta|y): -2070.26
+devold -366.132
+y(d,j)
+3.21888
+devold -1.44469e+014
+theta2
+2.8884
+dev1 -3265.25
+y(d,j)
+2.8884
+dev2 -3255.67
+Iteration 1, p(theta|y): -3255.67
+theta2
+2.40114
+dev1 -2028.19
+y(d,j)
+2.40114
+dev2 -2018.61
+Iteration 2, p(theta|y): -2018.61
+theta2
+2.22669
+dev1 -1754.87
+y(d,j)
+2.22669
+dev2 -1745.3
+Iteration 3, p(theta|y): -1745.3
+theta2
+2.23281
+dev1 -1700.21
+y(d,j)
+2.23281
+dev2 -1690.63
+Iteration 4, p(theta|y): -1690.63
+theta2
+2.24666
+dev1 -1693.49
+y(d,j)
+2.24666
+dev2 -1683.91
+Iteration 5, p(theta|y): -1683.91
+theta2
+2.2487
+dev1 -1693.3
+y(d,j)
+2.2487
+dev2 -1683.72
+Iteration 6, p(theta|y): -1683.72
+theta2
+2.24876
+dev1 -1693.3
+y(d,j)
+2.24876
+dev2 -1683.72
+Iteration 7, p(theta|y): -1683.72
+theta2
+2.24876
+dev1 -1693.3
+y(d,j)
+2.24876
+dev2 -1683.72
+Iteration2 0, p(theta|y): -1683.72
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24876
+Iteration 8, p(theta|y): -1683.72
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -1.20345e+014
+theta2
+2.88605
+dev1 -3227.5
+y(d,j)
+2.88605
+dev2 -3297.8
+Iteration 1, p(theta|y): -3297.8
+theta2
+2.39826
+dev1 -2014.25
+y(d,j)
+2.39826
+dev2 -2084.56
+Iteration 2, p(theta|y): -2084.56
+theta2
+2.2235
+dev1 -1749.76
+y(d,j)
+2.2235
+dev2 -1820.06
+Iteration 3, p(theta|y): -1820.06
+theta2
+2.22868
+dev1 -1698.04
+y(d,j)
+2.22868
+dev2 -1768.35
+Iteration 4, p(theta|y): -1768.35
+theta2
+2.24153
+dev1 -1691.81
+y(d,j)
+2.24153
+dev2 -1762.12
+Iteration 5, p(theta|y): -1762.12
+theta2
+2.2433
+dev1 -1691.63
+y(d,j)
+2.2433
+dev2 -1761.94
+Iteration 6, p(theta|y): -1761.94
+theta2
+2.24335
+dev1 -1691.63
+y(d,j)
+2.24335
+dev2 -1761.94
+Iteration 7, p(theta|y): -1761.94
+theta2
+2.24335
+dev1 -1691.63
+y(d,j)
+2.24335
+dev2 -1761.94
+Iteration2 0, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 1, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 2, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 3, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 4, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 5, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 6, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 7, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 8, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Iteration2 9, p(theta|y): -1761.94
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24335
+Could not correct step size.
+Iteration 8, p(theta|y): -1761.94
+devold -366.132
+y(d,j)
+3.21888
+devold -6.71454e+014
+theta2
+2.88603
+dev1 -3227.52
+y(d,j)
+2.88603
+dev2 -3268.68
+Iteration 1, p(theta|y): -3268.68
+theta2
+2.39824
+dev1 -2014.26
+y(d,j)
+2.39824
+dev2 -2055.42
+Iteration 2, p(theta|y): -2055.42
+theta2
+2.22347
+dev1 -1749.76
+y(d,j)
+2.22347
+dev2 -1790.92
+Iteration 3, p(theta|y): -1790.92
+theta2
+2.22865
+dev1 -1698.04
+y(d,j)
+2.22865
+dev2 -1739.2
+Iteration 4, p(theta|y): -1739.2
+theta2
+2.2415
+dev1 -1691.81
+y(d,j)
+2.2415
+dev2 -1732.97
+Iteration 5, p(theta|y): -1732.97
+theta2
+2.24326
+dev1 -1691.63
+y(d,j)
+2.24326
+dev2 -1732.79
+Iteration 6, p(theta|y): -1732.79
+theta2
+2.24332
+dev1 -1691.63
+y(d,j)
+2.24332
+dev2 -1732.79
+Iteration 7, p(theta|y): -1732.79
+theta2
+2.24332
+dev1 -1691.63
+y(d,j)
+2.24332
+dev2 -1732.79
+Iteration 8, p(theta|y): -1732.79
+devold -366.132
+y(d,j)
+3.21888
+devold -8.55479e+015
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3353.07
+Iteration 1, p(theta|y): -3353.07
+theta2
+2.39825
+dev1 -2014.25
+y(d,j)
+2.39825
+dev2 -2139.83
+Iteration 2, p(theta|y): -2139.83
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1875.33
+Iteration 3, p(theta|y): -1875.33
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1823.62
+Iteration 4, p(theta|y): -1823.62
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1817.39
+Iteration 5, p(theta|y): -1817.39
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1817.21
+Iteration 6, p(theta|y): -1817.21
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1817.21
+Iteration 7, p(theta|y): -1817.21
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1817.21
+Iteration 8, p(theta|y): -1817.21
+devold -366.132
+y(d,j)
+3.21888
+devold -4.68512e+015
+theta2
+2.88604
+dev1 -3227.53
+y(d,j)
+2.88604
+dev2 -3298.28
+Iteration 1, p(theta|y): -3298.28
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2085.02
+Iteration 2, p(theta|y): -2085.02
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1820.51
+Iteration 3, p(theta|y): -1820.51
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1768.8
+Iteration 4, p(theta|y): -1768.8
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1762.57
+Iteration 5, p(theta|y): -1762.57
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1762.39
+Iteration 6, p(theta|y): -1762.39
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1762.39
+Iteration 7, p(theta|y): -1762.39
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1762.39
+Iteration2 0, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1762.39
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1762.39
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.17
+Iteration 1, p(theta|y): -3327.17
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.49
+y(d,j)
+2.88604
+dev2 -3327.14
+Iteration 1, p(theta|y): -3327.14
+theta2
+2.39825
+dev1 -2014.25
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.75
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.36005e+014
+theta2
+2.88604
+dev1 -3227.53
+y(d,j)
+2.88604
+dev2 -3312.32
+Iteration 1, p(theta|y): -3312.32
+theta2
+2.39825
+dev1 -2014.27
+y(d,j)
+2.39825
+dev2 -2099.05
+Iteration 2, p(theta|y): -2099.05
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1834.55
+Iteration 3, p(theta|y): -1834.55
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1782.83
+Iteration 4, p(theta|y): -1782.83
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1776.6
+Iteration 5, p(theta|y): -1776.6
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1776.42
+Iteration 6, p(theta|y): -1776.42
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1776.42
+Iteration 7, p(theta|y): -1776.42
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1776.42
+Iteration 8, p(theta|y): -1776.42
+devold -366.132
+y(d,j)
+3.21888
+devold -1.81891e+016
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3325.37
+Iteration 1, p(theta|y): -3325.37
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2112.12
+Iteration 2, p(theta|y): -2112.12
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1847.62
+Iteration 3, p(theta|y): -1847.62
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1795.91
+Iteration 4, p(theta|y): -1795.91
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1789.68
+Iteration 5, p(theta|y): -1789.68
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1789.5
+Iteration 6, p(theta|y): -1789.5
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1789.5
+Iteration 7, p(theta|y): -1789.5
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1789.5
+Iteration 8, p(theta|y): -1789.5
+devold -366.132
+y(d,j)
+3.21888
+devold -1.81891e+016
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3325.38
+Iteration 1, p(theta|y): -3325.38
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2112.13
+Iteration 2, p(theta|y): -2112.13
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1847.62
+Iteration 3, p(theta|y): -1847.62
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1795.91
+Iteration 4, p(theta|y): -1795.91
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1789.68
+Iteration 5, p(theta|y): -1789.68
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1789.5
+Iteration 6, p(theta|y): -1789.5
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1789.5
+Iteration 7, p(theta|y): -1789.5
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1789.5
+Iteration2 0, p(theta|y): -1789.5
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1789.5
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.41
+y(d,j)
+2.88604
+dev2 -3327.06
+Iteration 1, p(theta|y): -3327.06
+theta2
+2.39825
+dev1 -2014.22
+y(d,j)
+2.39825
+dev2 -2113.87
+Iteration 2, p(theta|y): -2113.87
+theta2
+2.22349
+dev1 -1749.75
+y(d,j)
+2.22349
+dev2 -1849.39
+Iteration 3, p(theta|y): -1849.39
+theta2
+2.22867
+dev1 -1698.04
+y(d,j)
+2.22867
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 7, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 8, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 9, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Could not correct step size.
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.61
+y(d,j)
+2.88604
+dev2 -3327.25
+Iteration 1, p(theta|y): -3327.25
+theta2
+2.39825
+dev1 -2014.29
+y(d,j)
+2.39825
+dev2 -2113.94
+Iteration 2, p(theta|y): -2113.94
+theta2
+2.22348
+dev1 -1749.77
+y(d,j)
+2.22348
+dev2 -1849.41
+Iteration 3, p(theta|y): -1849.41
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24151
+dev1 -1691.81
+y(d,j)
+2.24151
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.17
+Iteration 1, p(theta|y): -3327.17
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22867
+dev1 -1698.04
+y(d,j)
+2.22867
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -3.4613e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3307.96
+Iteration 1, p(theta|y): -3307.96
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2094.71
+Iteration 2, p(theta|y): -2094.71
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1830.21
+Iteration 3, p(theta|y): -1830.21
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1778.5
+Iteration 4, p(theta|y): -1778.5
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1772.27
+Iteration 5, p(theta|y): -1772.27
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1772.09
+Iteration 6, p(theta|y): -1772.09
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1772.09
+Iteration 7, p(theta|y): -1772.09
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1772.09
+Iteration2 0, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1772.09
+devold -366.132
+y(d,j)
+3.21888
+devold -3.4613e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3307.96
+Iteration 1, p(theta|y): -3307.96
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2094.71
+Iteration 2, p(theta|y): -2094.71
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1830.21
+Iteration 3, p(theta|y): -1830.21
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1778.5
+Iteration 4, p(theta|y): -1778.5
+theta2
+2.24151
+dev1 -1691.81
+y(d,j)
+2.24151
+dev2 -1772.27
+Iteration 5, p(theta|y): -1772.27
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1772.09
+Iteration 6, p(theta|y): -1772.09
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1772.09
+Iteration 7, p(theta|y): -1772.09
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1772.09
+Iteration2 0, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 1, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 2, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 3, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 4, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 5, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 6, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 7, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 8, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 9, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Could not correct step size.
+Iteration 8, p(theta|y): -1772.09
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.14
+Iteration 1, p(theta|y): -3327.14
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22867
+dev1 -1698.04
+y(d,j)
+2.22867
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.17
+Iteration 1, p(theta|y): -3327.17
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24151
+dev1 -1691.81
+y(d,j)
+2.24151
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 6, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 7, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 8, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Iteration2 9, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24333
+Could not correct step size.
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.17
+Iteration 1, p(theta|y): -3327.17
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24151
+dev1 -1691.81
+y(d,j)
+2.24151
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22867
+dev1 -1698.04
+y(d,j)
+2.22867
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.44
+y(d,j)
+2.88604
+dev2 -3327.08
+Iteration 1, p(theta|y): -3327.08
+theta2
+2.39825
+dev1 -2014.23
+y(d,j)
+2.39825
+dev2 -2113.88
+Iteration 2, p(theta|y): -2113.88
+theta2
+2.22349
+dev1 -1749.75
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22867
+dev1 -1698.04
+y(d,j)
+2.22867
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 7, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 8, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 9, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Could not correct step size.
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.59
+y(d,j)
+2.88604
+dev2 -3327.23
+Iteration 1, p(theta|y): -3327.23
+theta2
+2.39825
+dev1 -2014.29
+y(d,j)
+2.39825
+dev2 -2113.93
+Iteration 2, p(theta|y): -2113.93
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.41
+Iteration 3, p(theta|y): -1849.41
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -3.01884e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3337.7
+Iteration 1, p(theta|y): -3337.7
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2124.45
+Iteration 2, p(theta|y): -2124.45
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1859.95
+Iteration 3, p(theta|y): -1859.95
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1808.24
+Iteration 4, p(theta|y): -1808.24
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1802.01
+Iteration 5, p(theta|y): -1802.01
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1801.83
+Iteration 6, p(theta|y): -1801.83
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1801.83
+Iteration 7, p(theta|y): -1801.83
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1801.83
+Iteration 8, p(theta|y): -1801.83
+devold -366.132
+y(d,j)
+3.21888
+devold -3.11541e+015
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3311.63
+Iteration 1, p(theta|y): -3311.63
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2098.37
+Iteration 2, p(theta|y): -2098.37
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1833.87
+Iteration 3, p(theta|y): -1833.87
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1782.16
+Iteration 4, p(theta|y): -1782.16
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1775.93
+Iteration 5, p(theta|y): -1775.93
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1775.75
+Iteration 6, p(theta|y): -1775.75
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1775.75
+Iteration 7, p(theta|y): -1775.75
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1775.75
+Iteration 8, p(theta|y): -1775.75
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -3.60959e+018
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3275.12
+Iteration 1, p(theta|y): -3275.12
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2061.87
+Iteration 2, p(theta|y): -2061.87
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1797.37
+Iteration 3, p(theta|y): -1797.37
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1745.66
+Iteration 4, p(theta|y): -1745.66
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1739.43
+Iteration 5, p(theta|y): -1739.43
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1739.25
+Iteration 6, p(theta|y): -1739.25
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1739.25
+Iteration 7, p(theta|y): -1739.25
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1739.25
+Iteration 8, p(theta|y): -1739.25
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 7, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -2.81752e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3251.63
+Iteration 1, p(theta|y): -3251.63
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2038.38
+Iteration 2, p(theta|y): -2038.38
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1773.88
+Iteration 3, p(theta|y): -1773.88
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1722.16
+Iteration 4, p(theta|y): -1722.16
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1715.93
+Iteration 5, p(theta|y): -1715.93
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1715.75
+Iteration 6, p(theta|y): -1715.75
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1715.75
+Iteration 7, p(theta|y): -1715.75
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1715.75
+Iteration 8, p(theta|y): -1715.75
+devold -366.132
+y(d,j)
+3.21888
+devold -2.2924e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3312.28
+Iteration 1, p(theta|y): -3312.28
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2099.02
+Iteration 2, p(theta|y): -2099.02
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1834.52
+Iteration 3, p(theta|y): -1834.52
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1782.81
+Iteration 4, p(theta|y): -1782.81
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1776.58
+Iteration 5, p(theta|y): -1776.58
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1776.4
+Iteration 6, p(theta|y): -1776.4
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1776.4
+Iteration 7, p(theta|y): -1776.4
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1776.4
+Iteration2 0, p(theta|y): -1776.4
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1776.4
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1776.4
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1776.4
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.17
+Iteration 1, p(theta|y): -3327.17
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.41
+Iteration 3, p(theta|y): -1849.41
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24151
+dev1 -1691.81
+y(d,j)
+2.24151
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24333
+dev1 -1691.63
+y(d,j)
+2.24333
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88605
+dev1 -3227.52
+y(d,j)
+2.88605
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.41
+Iteration 3, p(theta|y): -1849.41
+theta2
+2.22867
+dev1 -1698.04
+y(d,j)
+2.22867
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -3.4613e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3307.96
+Iteration 1, p(theta|y): -3307.96
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2094.71
+Iteration 2, p(theta|y): -2094.71
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1830.21
+Iteration 3, p(theta|y): -1830.21
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1778.5
+Iteration 4, p(theta|y): -1778.5
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1772.27
+Iteration 5, p(theta|y): -1772.27
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1772.09
+Iteration 6, p(theta|y): -1772.09
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1772.09
+Iteration 7, p(theta|y): -1772.09
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1772.09
+Iteration2 0, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1772.09
+devold -366.132
+y(d,j)
+3.21888
+devold -3.4613e+015
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3307.97
+Iteration 1, p(theta|y): -3307.97
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2094.71
+Iteration 2, p(theta|y): -2094.71
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1830.21
+Iteration 3, p(theta|y): -1830.21
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1778.5
+Iteration 4, p(theta|y): -1778.5
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1772.27
+Iteration 5, p(theta|y): -1772.27
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1772.09
+Iteration 6, p(theta|y): -1772.09
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1772.09
+Iteration 7, p(theta|y): -1772.09
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1772.09
+Iteration2 0, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1772.09
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1772.09
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.75
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.41
+Iteration 3, p(theta|y): -1849.41
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.89549e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3314.32
+Iteration 1, p(theta|y): -3314.32
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2101.07
+Iteration 2, p(theta|y): -2101.07
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1836.57
+Iteration 3, p(theta|y): -1836.57
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1784.85
+Iteration 4, p(theta|y): -1784.85
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1778.62
+Iteration 5, p(theta|y): -1778.62
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1778.44
+Iteration 6, p(theta|y): -1778.44
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1778.44
+Iteration 7, p(theta|y): -1778.44
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1778.44
+Iteration2 0, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 7, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 8, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 9, p(theta|y): -1778.44
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Could not correct step size.
+Iteration 8, p(theta|y): -1778.44
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.5
+y(d,j)
+2.88604
+dev2 -3327.15
+Iteration 1, p(theta|y): -3327.15
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.9
+Iteration 2, p(theta|y): -2113.9
+theta2
+2.22349
+dev1 -1749.75
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration2 0, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 1, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 2, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 3, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 4, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 5, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 6, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 7, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 8, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Iteration2 9, p(theta|y): -1791.28
+Step size halved due to decreasing likelihood.
+y(d,j)
+2.24334
+Could not correct step size.
+Iteration 8, p(theta|y): -1791.28
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.52
+y(d,j)
+2.88604
+dev2 -3327.17
+Iteration 1, p(theta|y): -3327.17
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22348
+dev1 -1749.76
+y(d,j)
+2.22348
+dev2 -1849.41
+Iteration 3, p(theta|y): -1849.41
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.64
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.64
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28
+iter   2 value 2061.922604
+final  value 2061.922604 
+stopped after 2 iterations
+devold -366.132
+y(d,j)
+3.21888
+devold -4.10152e+014
+theta2
+2.88604
+dev1 -3227.51
+y(d,j)
+2.88604
+dev2 -3327.16
+Iteration 1, p(theta|y): -3327.16
+theta2
+2.39825
+dev1 -2014.26
+y(d,j)
+2.39825
+dev2 -2113.91
+Iteration 2, p(theta|y): -2113.91
+theta2
+2.22349
+dev1 -1749.76
+y(d,j)
+2.22349
+dev2 -1849.4
+Iteration 3, p(theta|y): -1849.4
+theta2
+2.22866
+dev1 -1698.04
+y(d,j)
+2.22866
+dev2 -1797.69
+Iteration 4, p(theta|y): -1797.69
+theta2
+2.24152
+dev1 -1691.81
+y(d,j)
+2.24152
+dev2 -1791.46
+Iteration 5, p(theta|y): -1791.46
+theta2
+2.24328
+dev1 -1691.63
+y(d,j)
+2.24328
+dev2 -1791.28
+Iteration 6, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 7, p(theta|y): -1791.28
+theta2
+2.24334
+dev1 -1691.63
+y(d,j)
+2.24334
+dev2 -1791.28
+Iteration 8, p(theta|y): -1791.28

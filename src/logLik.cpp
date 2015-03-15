@@ -14,10 +14,10 @@
 // available from R
 // [[Rcpp::export]]
 
-Rcpp::List likelihood(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_,
-const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, 
+Rcpp::List likelihood(Rcpp::NumericMatrix y_, Rcpp::NumericVector Z_, Rcpp::NumericMatrix u_,
+ Rcpp::NumericVector a1_, Rcpp::NumericMatrix P1_, Rcpp::NumericMatrix P1inf_, 
 const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_
-, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace,const int compgrad){
+, Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace,const int compgrad){
   
   const unsigned int n = y_.nrow();
   const unsigned int p = y_.ncol();
@@ -53,7 +53,7 @@ const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::Num
     return Rcpp::List::create(Rcpp::Named("logLik") = -std::numeric_limits<double>::max(), Rcpp::Named("convergence") = conv);
   }  
   
-  lik =+ scaling(dist, y, u, theta, ytilde, H);
+  lik += scaling(dist, y, u, theta, ytilde, H);
   
   arma::mat grad(p,nfactors);
   grad.zeros();

@@ -18,7 +18,7 @@ const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const doubl
 const arma::umat& zind, const int nfactors, arma::mat& coefs,arma::cube& coefVars) {
   
   
-  double tiny = std::numeric_limits<double>::min();
+  double tiny = pow(std::numeric_limits<double>::epsilon(),0.75);
   
   int n = Z.n_slices;
   int p = Z.n_cols;

@@ -38,7 +38,7 @@ void ytildeH(const int dist, const arma::mat& y, const arma::mat& u, const arma:
 
 double pytheta(const int dist, const arma::mat& y, const arma::mat& u,const arma::mat& theta);
                
-double ptheta(const arma::mat& y, const arma::cube& Z, const arma::mat& H,
+double ptheta(const arma::mat& y, const arma::cube& Z,
 const arma::colvec& a1, const arma::mat& P1, const arma::mat& P1inf, const double tol,
 const arma::umat& zind, const int nfactors);
 

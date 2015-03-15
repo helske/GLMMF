@@ -14,24 +14,24 @@
 // available from R
 // [[Rcpp::export]]
 
-Rcpp::List approxG(const Rcpp::NumericMatrix y_, const Rcpp::NumericVector Z_, const Rcpp::NumericMatrix u_,
-const Rcpp::NumericVector a1_, const Rcpp::NumericMatrix P1_, const Rcpp::NumericMatrix P1inf_, 
+Rcpp::List approxG(Rcpp::NumericMatrix y_, Rcpp::NumericVector Z_, Rcpp::NumericMatrix u_,
+Rcpp::NumericVector a1_,  Rcpp::NumericMatrix P1_, Rcpp::NumericMatrix P1inf_, 
 const int dist, double tol, int maxiter, int maxiter2, double convtol, Rcpp::NumericMatrix theta_
-, const Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace){
+,  Rcpp::IntegerMatrix Zind_, const int nfactors, const int trace){
   
   const unsigned int n = y_.nrow();
   const unsigned int p = y_.ncol();
   const unsigned int m = P1_.nrow();
   const unsigned int m1 = Zind_.nrow();
   
-  const arma::mat y(y_.begin(), n,p, true);
-  const arma::cube Z(Z_.begin(), m1, p, n, true);
-  const arma::mat u(u_.begin(), n,p, true);
-  const arma::vec a1(a1_.begin(),m, true);
-  const arma::mat P1(P1_.begin(),m,m, true);
-  const arma::mat P1inf(P1inf_.begin(),m,m, true);
+  const arma::mat y(y_.begin(), n,p, false);
+  const arma::cube Z(Z_.begin(), m1, p, n, false);
+  const arma::mat u(u_.begin(), n,p, false);
+  const arma::vec a1(a1_.begin(),m, false);
+  const arma::mat P1(P1_.begin(),m,m, false);
+  const arma::mat P1inf(P1inf_.begin(),m,m, false);
   
-  const arma::imat izind(Zind_.begin(),m1,p,true);
+  const arma::imat izind(Zind_.begin(),m1,p,false);
   const arma::umat zind = arma::conv_to<arma::umat>::from(izind);
   
   arma::mat theta(theta_.begin(), n,p, true);

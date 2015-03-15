@@ -31,25 +31,23 @@ const arma::umat& zind, const int trace) {
   
   double dev_old = 0.0;
   double dev =0.0;
+      arma::mat theta_old(n,p);
+  theta_old = theta; 
+  arma::mat theta_new(n,p);  
+  theta_new = theta; 
   
-  dev_old = pytheta(dist,y,u,theta)+ ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, 0);
-  
-  arma::mat theta_old(n,p);    
-  theta_old = theta;
-  
-  
-  
+  dev_old = pytheta(dist,y,u,theta_new) + ptheta(theta_new, Z, a1, P1, P1inf, tol, zind, 0);
   
   int iter2;
-  int iter  =0;
+  int iter=0;
   while(iter < maxiter){  
     
     iter++;
     conv = iter;   
     
-    ytildeH(dist, y, u, theta, ytilde, H);
-    lik = newthetaNF(ytilde, Z, H, a1, P1, P1inf, tol, zind, theta);
-    dev = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, 0);
+    ytildeH(dist, y, u, theta_new, ytilde, H);
+    lik = newthetaNF(ytilde, Z, H, a1, P1, P1inf, tol, zind, theta_new);
+    dev = pytheta(dist,y,u,theta_new) + ptheta(theta_new, Z, a1, P1, P1inf, tol, zind, 0);
     
     if( (((dev - dev_old)/(0.1 + std::abs(dev))) < convtol ) && iter>1 && maxiter2>0){
       iter2 = 0;      
@@ -62,8 +60,8 @@ const arma::umat& zind, const int trace) {
         theta = 0.5*(theta + theta_old);        
         
         ytildeH(dist, y, u, theta, ytilde, H);
-        lik = newthetaNF(ytilde, Z, H, a1, P1, P1inf, tol, zind, theta);
-        dev = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, 0);
+        lik = newthetaNF(ytilde, Z, H, a1, P1, P1inf, tol, zind, theta_new);
+        dev = pytheta(dist,y,u,theta_new) + ptheta(theta_new, Z, a1, P1, P1inf, tol, zind, 0);
         
       }
       if(iter2==maxiter2){
@@ -83,9 +81,11 @@ const arma::umat& zind, const int trace) {
       break;      
     }
     if(std::abs(dev - dev_old)/(0.1 + std::abs(dev)) < convtol){
+      theta = theta_new;
       break;
     } else {
       theta_old = theta;
+      theta = theta_new;
       dev_old = dev;
     }
     

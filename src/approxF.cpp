@@ -19,6 +19,8 @@ arma::mat&  ytilde, arma::mat& H, arma::mat& theta, const int maxiter, const int
 const double convtol, int& conv,
 const arma::umat& zind, const int nfactors, const int trace) {
   
+
+  
   if(dist == 1){
     //no need to iterate with gaussian model
     return newthetaF(y, Z, u, a1, P1, P1inf, tol, zind, nfactors, theta);   
@@ -32,12 +34,13 @@ const arma::umat& zind, const int nfactors, const int trace) {
   
   double dev_old = 0.0;
   double dev =0.0;
-  
-  
-  dev_old = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, nfactors);
-  
-  arma::mat theta_old(n,p);    
+  arma::mat theta_old(n,p);
   theta_old = theta; 
+  arma::mat theta_new(n,p);  
+  theta_new = theta; 
+  
+  dev_old = -std::numeric_limits<double>::max();
+  
   
   int iter2;
   int iter = 0;
@@ -45,14 +48,13 @@ const arma::umat& zind, const int nfactors, const int trace) {
     
     iter++;
     conv = iter;   
-    
-    ytildeH(dist, y, u, theta, ytilde, H);
-    lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta);
-    dev = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, nfactors);
-    
-    if( (((dev - dev_old)/(0.1 + std::abs(dev))) < convtol ) && iter>1 && maxiter2>0){
+    ytildeH(dist, y, u, theta_new, ytilde, H);
+    lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta_new);
+
+    dev = pytheta(dist,y,u,theta_new) + ptheta(theta_new, Z, a1, P1, P1inf, tol, zind, nfactors);
+    if( (((dev - dev_old)/(0.1 + std::abs(dev))) < -convtol ) && iter>1 && maxiter2>0){
       iter2 = 0;      
-      while(((dev - dev_old)/(0.1 + std::abs(dev))) < 0.0 && iter2<maxiter2){
+      while(((dev - dev_old)/(0.1 + std::abs(dev))) < convtol && iter2<maxiter2){
         iter2++;
         if(trace>0){
           Rcpp::Rcout<<"Step size halved due to decreasing likelihood."<<std::endl;
@@ -61,8 +63,8 @@ const arma::umat& zind, const int nfactors, const int trace) {
         theta = 0.5*(theta + theta_old);        
         
         ytildeH(dist, y, u, theta, ytilde, H);
-        lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta);
-        dev = pytheta(dist,y,u,theta) + ptheta(theta, Z, H, a1, P1, P1inf, tol, zind, nfactors);
+        lik = newthetaF(ytilde, Z, H, a1, P1, P1inf, tol, zind, nfactors, theta_new);
+        dev = pytheta(dist,y,u,theta_new) + ptheta(theta_new, Z, a1, P1, P1inf, tol, zind, nfactors);
         
       }
       if(iter2==maxiter2){
@@ -82,9 +84,11 @@ const arma::umat& zind, const int nfactors, const int trace) {
       break;      
     }
     if(std::abs(dev - dev_old)/(0.1 + std::abs(dev)) < convtol){
+      theta = theta_new;
       break;
     } else {
       theta_old = theta;
+      theta = theta_new;
       dev_old = dev;
     }
     
